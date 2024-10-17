@@ -64,25 +64,14 @@
 				justify-content : center;
 				font-size : large;
 			}
-			.scroll-item-today {
-				height : 160px;
+			.scroll-item-passed {
 				background-color : #aaccee;
-				border-radius : 5px;
-				text-align : center;
-				display : flex;
-				flex-direction : column;
-				justify-content : center;
-				font-size : large;
 			}
 			.scroll-item-current {
-				height : 160px;
 				background-color : #eeccaa;
-				border-radius : 5px;
-				text-align : center;
-				display : flex;
-				flex-direction : column;
-				justify-content : center;
-				font-size : large;
+			}
+			.scroll-item-future {
+				background-color : #aaeeaa;
 			}
 			.transparent-item {
 				height : 60px;
@@ -106,19 +95,19 @@
 						continue;
 					curList = curList.concat([{timeBegin : new Date("2024-01-01 " + TimeLine[course.duration[0] - 1]) - new Date("2024-01-01 00:00"),day : course.day,position : course.position,name : course.name}]);
 					let mNode = document.createElement('div');
+					mNode.classList.add('scroll-item')
 					if(course.day == thisDay && 
 						(new Date() - dateFrom("2024-09-15",thisWeek,course.day,TimeLine[course.duration[0] - 1])) > 0 && 
 						(dateFrom("2024-09-15",thisWeek,course.day,TimeLine[course.duration[1]]) - new Date()) > 0)
 					{
 						mNode.classList.add('scroll-item-current');
 						curID = curList.length - 1;
-					}else if(course.day == thisDay)
+					}else if(course.day == thisDay && (new Date() - dateFrom("2024-09-15",thisWeek,course.day,TimeLine[course.duration[1]]) > 0))
 					{
-						mNode.classList.add('scroll-item-today');
-						if(subID == -1)
-							subID = curList.length - 1;
-					}else
-						mNode.classList.add('scroll-item')
+						mNode.classList.add('scroll-item-passed');
+						subID = curList.length - 1;
+					}else if(course.day == thisDay)
+						mNode.classList.add('scroll-item-future');
 					mNode.innerText = course.name + "\n" + course.position + "\n" + dateFrom("2024-09-15",thisWeek,course.day,TimeLine[course.duration[0] - 1]) + "\n" + (1 + course.duration[1] - course.duration[0]) + "节"
 					fatherNode.appendChild(mNode);
 					let qNode = document.createElement('div');
