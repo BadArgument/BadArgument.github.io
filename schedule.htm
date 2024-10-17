@@ -1,0 +1,131 @@
+<HTML>
+	<head>
+		<script>
+			const range = function(l,r,s = 1){
+				return Array.from({length : Math.floor((r - l + s - 1) / s)},(_,i)=>l + i * s);
+			};
+			const weekBy = function(todate){
+				return Math.floor((new Date() - todate) / 7 / 86400 / 1000);
+			};
+			const dateFrom = function(originstring,week,day,timestring){
+				return new Date(new Date(new Date(originstring).getTime() + (week * 7 + day) * 86400 * 1000).toDateString() + " " + timestring);
+			};
+			let entry = function(w,d,r,p,n){
+				return {
+					week : range(w[0] - 1,w[1],w[2]),
+					day : d,
+					duration : r,
+					position : p,
+					name : n
+				};
+			};
+			const List = [
+				entry([1,16]	,1,[1,2]	,'J2-103','雅思'),
+				entry([2,16,2]	,1,[3,5]	,'实验楼','物理实验'),
+				entry([1,15]	,1,[6,7]	,'J4-303','数据结构'),
+				entry([1,8]		,1,[8,10]	,'J3-305','计算机新生研讨'),
+				entry([1,11]	,1,[11,13]	,'J2-300','通选'),
+				entry([1,16]	,2,[1,2]	,'J6-401','随机数学基础'),
+				entry([1,15]	,2,[3,5]	,'J8-301','计算机组成原理'),
+				entry([1,16]	,2,[6,7]	,'J2-209','物理'),
+				entry([1,16]	,2,[8,10]	,'J8-302','马克思主义基本原理'),
+				entry([1,16]	,2,[11,12]	,'J3-204','离散数学'),
+				entry([1,16]	,3,[3,4]	,'体育馆','体育课'),
+				entry([9,12]	,3,[6,7]	,'J6-201','形势与政策'),
+				entry([1,16]	,4,[1,2]	,'J2-209','物理'),
+				entry([1,16]	,4,[3,4]	,'J6-401','随机数学基础'),
+				entry([1,14]	,4,[8,10]	,'J4-303','数据结构'),
+				entry([1,14]	,4,[11,12]	,'J6-304','社会主义史'),
+				entry([1,16]	,5,[3,5]	,'J4-403','人工智能导论'),
+				entry([1,15]	,5,[6,7]	,'J8-301','计算机组成原理'),
+				entry([1,16]	,6,[3,4]	,'J3-204','离散数学'),
+				entry([15,16]	,6,[6,8]	,'J4-403','人工智能导论'),
+			];
+			const TimeLine = ['08:00','08:50','09:50','10:40','11:30','14:00','14:50','15:50','16:40','17:30','19:00','19:50','20:40','21:30'];
+			entry = undefined;
+		</script>
+		<style>
+			body {
+				display : flex;
+			}
+			#scroll-container {
+				width : 90%;
+				height : 90%;
+				overflow : auto;
+				border-radius : 5px;
+			}
+			.scroll-item {
+				height : 120px;
+				background-color : #aaaaaa;
+				border-radius : 5px;
+				text-align : center;
+				display : flex;
+				flex-direction : column;
+				justify-content : center;
+			}
+			.scroll-item-today {
+				height : 120px;
+				background-color : #aaccee;
+				border-radius : 5px;
+				text-align : center;
+				display : flex;
+				flex-direction : column;
+				justify-content : center;
+			}
+			.scroll-item-current {
+				height : 120px;
+				background-color : #eeccaa;
+				border-radius : 5px;
+				text-align : center;
+				display : flex;
+				flex-direction : column;
+				justify-content : center;
+			}
+			.transparent-item {
+				height : 40px;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="scroll-container">
+		</div>
+		<script>
+			(function(){
+				const thisWeek = weekBy(new Date("2024-09-16"));
+				const thisDay = new Date().getDay();
+				var curList = [];
+				var curID = -1;
+				var subID = -1;
+				let fatherNode = document.querySelector('#scroll-container');
+				for(let course of List)
+				{
+					if(!course.week.includes(thisWeek))
+						continue;
+					curList = curList.concat([{timeBegin : new Date("2024-01-01 " + TimeLine[course.duration[0] - 1]) - new Date("2024-01-01 00:00"),day : course.day,position : course.position,name : course.name}]);
+					let mNode = document.createElement('div');
+					if(course.day == thisDay && 
+						(new Date() - dateFrom("2024-09-15",thisWeek,course.day,TimeLine[course.duration[0] - 1])) > 0 && 
+						(dateFrom("2024-09-15",thisWeek,course.day,TimeLine[course.duration[1]]) - new Date()) > 0)
+					{
+						mNode.classList.add('scroll-item-current');
+						curID = curList.length - 1;
+					}else if(course.day == thisDay)
+					{
+						mNode.classList.add('scroll-item-today');
+						if(subID == -1)
+							subID = curList.length - 1;
+					}else
+						mNode.classList.add('scroll-item')
+					mNode.innerText = course.name + "\n" + course.position + "\n" + dateFrom("2024-09-15",thisWeek,course.day,TimeLine[course.duration[0] - 1]) + "\n" + (1 + course.duration[1] - course.duration[0]) + "节"
+					fatherNode.appendChild(mNode);
+					let qNode = document.createElement('div');
+					qNode.classList.add('transparent-item');
+					fatherNode.appendChild(qNode);
+				}
+				if(curID == -1)
+					curID = subID;
+				fatherNode.scrollTop += curID * 160;
+			})()
+		</script>
+	</body>
+</HTML>
