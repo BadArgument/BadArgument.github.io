@@ -57,7 +57,6 @@
 			}
 			.scroll-item {
 				height : 160px;
-				background-color : #aaaaaa;
 				border-radius : 5px;
 				text-align : center;
 				display : flex;
@@ -66,13 +65,19 @@
 				font-size : large;
 			}
 			.scroll-item-passed {
-				background-color : #aaccee;
+				background-color : #aaeecc;
+			}
+			.scroll-item-passed-far {
+				background-color : #cccccc;
+			}
+			.scroll-item-upcoming {
+				background-color : #cceeaa;
 			}
 			.scroll-item-current {
 				background-color : #eeccaa;
 			}
 			.scroll-item-future {
-				background-color : #aaeeaa;
+				background-color : #aaccee;
 			}
 			.transparent-item {
 				height : 60px;
@@ -88,7 +93,6 @@
 				const thisDay = new Date().getDay();
 				var curList = [];
 				var curID = -1;
-				var subID = -1;
 				let fatherNode = document.querySelector('#scroll-container');
 				for(let course of List)
 				{
@@ -97,26 +101,29 @@
 					curList = curList.concat([{timeBegin : new Date("2024-01-01 " + TimeLine[course.duration[0] - 1]) - new Date("2024-01-01 00:00"),day : course.day,position : course.position,name : course.name}]);
 					let mNode = document.createElement('div');
 					mNode.classList.add('scroll-item')
-					if(course.day == thisDay && 
-						(new Date() - dateFrom("2024-09-15",thisWeek,course.day,TimeLine[course.duration[0] - 1])) > 0 && 
+					if((new Date() - dateFrom("2024-09-15",thisWeek,course.day,TimeLine[course.duration[0] - 1])) > 0 && 
 						(new Date() - dateFrom("2024-09-15",thisWeek,course.day,TimeLine[course.duration[1] - 1])) < 45 * 60 * 1000)
 					{
 						mNode.classList.add('scroll-item-current');
 						curID = curList.length - 1;
-					}else if(course.day == thisDay && (new Date() - dateFrom("2024-09-15",thisWeek,course.day,TimeLine[course.duration[1] - 1]) > 45 * 60 * 1000))
+					}else if(new Date() - dateFrom("2024-09-15",thisWeek,course.day,TimeLine[course.duration[1] - 1]) > 45 * 60 * 1000)
 					{
 						mNode.classList.add('scroll-item-passed');
-						subID = curList.length - 1;
-					}else if(course.day == thisDay)
+						if(new Date() - dateFrom("2024-09-15",thisWeek,course.day,TimeLine[course.duration[1] - 1]) > 86400 * 1000)
+							mNode.classList.add('scroll-item-passed-far')
+						curID = curList.length - 1;
+					}else
+					{
 						mNode.classList.add('scroll-item-future');
+						if(dateFrom("2024-09-15",thisWeek,course.day,TimeLine[course.duration[0] - 1]) - new Date() < 3600 * 1000)
+							mNode.classList.add('scroll-item-upcoming');
+					}
 					mNode.innerText = course.name + "\n" + course.position + "\n" + dateFrom("2024-09-15",thisWeek,course.day,TimeLine[course.duration[0] - 1]) + "\n" + (1 + course.duration[1] - course.duration[0]) + "节"
 					fatherNode.appendChild(mNode);
 					let qNode = document.createElement('div');
 					qNode.classList.add('transparent-item');
 					fatherNode.appendChild(qNode);
 				}
-				if(curID == -1)
-					curID = subID;
 				fatherNode.scrollTop += curID * 220;
 			})()
 		</script>
