@@ -79,6 +79,9 @@
 			.scroll-item-upcoming {
 				background-color : #eeaacc;
 			}
+			.scroll-item-future-far {
+				background-color : #cccccc;
+			}
 			.transparent-item {
 				height : 60px;
 			}
@@ -90,7 +93,6 @@
 		<script>
 			(function(){
 				const thisWeek = weekBy(new Date("2024-09-16"));
-				const thisDay = new Date().getDay();
 				var curList = [];
 				var curID = -1;
 				let fatherNode = document.querySelector('#scroll-container');
@@ -112,12 +114,13 @@
 						if(new Date() - dateFrom("2024-09-15",thisWeek,course.day,TimeLine[course.duration[1] - 1]) > 86400 * 1000)
 							mNode.classList.add('scroll-item-passed-far')
 						curID = curList.length - 1;
-					}else
+					}else if(new Date().getDay() == course.day)
 					{
 						mNode.classList.add('scroll-item-future');
 						if(dateFrom("2024-09-15",thisWeek,course.day,TimeLine[course.duration[0] - 1]) - new Date() < 3600 * 1000)
 							mNode.classList.add('scroll-item-upcoming');
-					}
+					}else
+						mNode.classList.add('scroll-item-future-far');
 					mNode.innerText = course.name + "\n" + course.position + "\n" + dateFrom("2024-09-15",thisWeek,course.day,TimeLine[course.duration[0] - 1]) + "\n" + (1 + course.duration[1] - course.duration[0]) + "节"
 					fatherNode.appendChild(mNode);
 					let qNode = document.createElement('div');
