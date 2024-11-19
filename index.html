@@ -1,6 +1,9 @@
 <HTML>
 	<head>
 		<script>
+			async function Sleep(time){
+				return new Promise((resolve) => setTimeout(resolve,time));
+			}
 			const range = function(l,r,s = 1){
 				return Array.from({length : Math.floor((r - l + s - 1) / s)},(_,i)=>l + i * s);
 			};
@@ -35,12 +38,12 @@
 				entry([1,16]	,4,[1,2]	,'J2-209','物理'),
 				entry([1,16]	,4,[3,4]	,'J6-401','随机数学基础'),
 				entry([1,14]	,4,[8,10]	,'J4-303','数据结构'),
-				entry([1,8]	,4,[11,12]	,'J6-304','社会主义史'),
+				entry([1,8]		,4,[11,12]	,'J6-304','社会主义史'),
+				entry([9,13,2]	,4,[11,13]	,'实验楼','物理实验（选做）'),
 				entry([1,16]	,5,[3,5]	,'J4-403','人工智能导论'),
 				entry([1,15]	,5,[6,7]	,'J8-301','计算机组成原理'),
 				entry([1,16]	,6,[3,4]	,'J3-204','离散数学'),
 				entry([15,16]	,6,[6,8]	,'J4-403','人工智能导论'),
-				entry([9,13,2]	,4,[11,13]	,'实验楼','物理实验（选做）'),
 			];
 			const TimeLine = ['08:00','08:50','09:50','10:40','11:30','14:00','14:50','15:50','16:40','17:30','19:00','19:50','20:40','21:30'];
 			entry = undefined;
@@ -91,7 +94,7 @@
 		<div id="scroll-container">
 		</div>
 		<script>
-			(function(){
+			(async function(){
 				const thisWeek = weekBy("2024-09-16 00:00");
 				var curList = [];
 				var curID = -1;
@@ -127,7 +130,11 @@
 					qNode.classList.add('transparent-item');
 					fatherNode.appendChild(qNode);
 				}
-				fatherNode.scrollTop += curID * 380;
+				for(let x = 0;x < 100;x++)
+				{
+					fatherNode.scrollTop = curID * 380 * Math.log(x + 1) / Math.log(100);
+					await Sleep(5);
+				}
 			})()
 		</script>
 	</body>
