@@ -4,8 +4,8 @@
 			async function Sleep(time){
 				return new Promise((resolve) => setTimeout(resolve,time));
 			}
-			const range = function(l,r,s = 1){
-				return Array.from({length : Math.floor((r - l + s - 1) / s)},(_,i)=>l + i * s);
+			const range = function(l,r,s = 1,w = []){
+				return Array.from({length : Math.floor((r - l + s - 1) / s)},(_,i)=>l + i * s).concat(w);
 			};
 			const weekBy = function(todate){
 				return Math.floor((new Date() - new Date(todate)) / 7 / 86400 / 1000);
@@ -15,7 +15,7 @@
 			};
 			let entry = function(w,d,r,p,n){
 				return {
-					week : range(w[0] - 1,w[1],w[2]),
+					week : range(w[0] - 1,w[1],w[2],w[3]),
 					day : d,
 					duration : r,
 					position : p,
@@ -23,27 +23,14 @@
 				};
 			};
 			const List = [
-				entry([1,16]	,1,[1,2]	,'J2-103','雅思'),
-				entry([2,16,2]	,1,[3,5]	,'实验楼','物理实验'),
-				entry([1,15]	,1,[6,7]	,'J4-303','数据结构'),
-				entry([1,8]		,1,[8,10]	,'J3-305','计算机新生研讨'),
-				entry([1,11]	,1,[11,13]	,'J2-300','通选'),
-				entry([1,16]	,2,[1,2]	,'J6-401','随机数学基础'),
-				entry([1,15]	,2,[3,5]	,'J8-301','计算机组成原理'),
-				entry([1,16]	,2,[6,7]	,'J2-209','物理'),
-				entry([1,16]	,2,[8,10]	,'J8-302','马克思主义基本原理'),
-				entry([1,16]	,2,[11,12]	,'J3-204','离散数学'),
-				entry([1,16]	,3,[3,4]	,'体育馆','体育课'),
-				entry([9,12]	,3,[6,7]	,'J6-201','形势与政策'),
-				entry([1,16]	,4,[1,2]	,'J2-209','物理'),
-				entry([1,16]	,4,[3,4]	,'J6-401','随机数学基础'),
-				entry([1,14]	,4,[8,10]	,'J4-303','数据结构'),
-				entry([1,8]		,4,[11,12]	,'J6-304','社会主义史'),
-				entry([9,13,2]	,4,[11,13]	,'实验楼','物理实验（选做）'),
-				entry([1,16]	,5,[3,5]	,'J4-403','人工智能导论'),
-				entry([1,15]	,5,[6,7]	,'J8-301','计算机组成原理'),
-				entry([1,16]	,6,[3,4]	,'J3-204','离散数学'),
-				entry([15,16]	,6,[6,8]	,'J4-403','人工智能导论'),
+				entry([17,17],2,[2,4],"J4-402","数据结构"),
+				entry([17,17],2,[11,13],"J8-401","马克思主义基本原理"),
+				entry([17,17],3,[2,3],"J6-202","大学英语高级课程2"),
+				entry([17,17],4,[2,4],"J8-102","人工智能导论"),
+				entry([17,17],5,[6,8],"J6-102","大学物理B II"),
+				entry([17,17],6,[2,4],"J1-211","离散数学"),
+				entry([18,18],1,[6,8],"J4-203","概率统计与随机过程"),
+				entry([18,18],2,[2,4],"J4-202","计算机组成原理")
 			];
 			const TimeLine = ['08:00','08:50','09:50','10:40','11:30','14:00','14:50','15:50','16:40','17:30','19:00','19:50','20:40','21:30'];
 			entry = undefined;
@@ -130,9 +117,10 @@
 					qNode.classList.add('transparent-item');
 					fatherNode.appendChild(qNode);
 				}
+				const scrollTopOrigin = fatherNode.scrollTop;
 				for(let x = 0;x < 100;x++)
 				{
-					fatherNode.scrollTop = curID * 380 * Math.log(x + 1) / Math.log(100);
+					fatherNode.scrollTop = (curID * 380  - scrollTopOrigin) * Math.log(x + 1) / Math.log(100);
 					await Sleep(5);
 				}
 			})()
