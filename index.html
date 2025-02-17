@@ -101,25 +101,25 @@
 					curList = curList.concat([{timeBegin : new Date("2024-01-01 " + TimeLine[course.duration[0] - 1]) - new Date("2024-01-01 00:00"),day : course.day,position : course.position,name : course.name}]);
 					let mNode = document.createElement('div');
 					mNode.classList.add('scroll-item')
-					if((new Date() - dateFrom("2024-09-15",thisWeek,course.day,TimeLine[course.duration[0] - 1])) > 0 && 
-						(new Date() - dateFrom("2024-09-15",thisWeek,course.day,TimeLine[course.duration[1] - 1])) < 45 * 60 * 1000)
+					if((new Date() - dateFrom("2025-02-16",thisWeek,course.day,TimeLine[course.duration[0] - 1])) > 0 && 
+						(new Date() - dateFrom("2025-02-16",thisWeek,course.day,TimeLine[course.duration[1] - 1])) < 45 * 60 * 1000)
 					{
 						mNode.classList.add('scroll-item-current');
 						curID = curList.length - 1;
-					}else if(new Date() - dateFrom("2024-09-15",thisWeek,course.day,TimeLine[course.duration[1] - 1]) > 45 * 60 * 1000)
+					}else if(new Date() - dateFrom("2025-02-16",thisWeek,course.day,TimeLine[course.duration[1] - 1]) > 45 * 60 * 1000)
 					{
 						mNode.classList.add('scroll-item-passed');
-						if(new Date() - dateFrom("2024-09-15",thisWeek,course.day,TimeLine[course.duration[1] - 1]) > 86400 * 1000)
+						if(new Date() - dateFrom("2025-02-16",thisWeek,course.day,TimeLine[course.duration[1] - 1]) > 86400 * 1000)
 							mNode.classList.add('scroll-item-passed-far')
 						curID = curList.length - 1;
 					}else if(new Date().getDay() == course.day)
 					{
 						mNode.classList.add('scroll-item-future');
-						if(dateFrom("2024-09-15",thisWeek,course.day,TimeLine[course.duration[0] - 1]) - new Date() < 3600 * 1000)
+						if(dateFrom("2025-02-16",thisWeek,course.day,TimeLine[course.duration[0] - 1]) - new Date() < 3600 * 1000)
 							mNode.classList.add('scroll-item-upcoming');
 					}else
 						mNode.classList.add('scroll-item-future-far');
-					mNode.innerText = course.name + "\n" + course.position + "\n" + dateFrom("2024-09-15",thisWeek,course.day,TimeLine[course.duration[0] - 1]) + "\n" + (1 + course.duration[1] - course.duration[0]) + "节"
+					mNode.innerText = course.name + "\n" + course.position + "\n" + dateFrom("2025-02-16",thisWeek,course.day,TimeLine[course.duration[0] - 1]) + "\n" + (1 + course.duration[1] - course.duration[0]) + "节"
 					fatherNode.appendChild(mNode);
 					let qNode = document.createElement('div');
 					qNode.classList.add('transparent-item');
