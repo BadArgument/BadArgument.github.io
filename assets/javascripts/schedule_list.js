@@ -41,15 +41,15 @@
 		return node;
 	}
 	let latest_node = null;
-	for(const sch_list of Array.from(document.querySelectorAll('schedule-list'))) {
+	for(const sch_list of Array.from(document.querySelectorAll('rs-schedule'))) {
 		const semester = attribute_or(sch_list,'name','');
 		const startDate = `${attribute_or(sch_list,'startDate','')} 00:00`;
 		const week_count = week_by(startDate) + 1;
 		let in_week_courses = [];
-		for(const course of Array.from(sch_list.querySelectorAll('course-entry'))) {
+		for(const course of Array.from(sch_list.querySelectorAll('rs-course'))) {
 			const name = attribute_or(course,"name","");
 			const place = attribute_or(course,"place","");
-			for(const duration of Array.from(course.querySelectorAll('course-duration'))) {
+			for(const duration of Array.from(course.querySelectorAll('rs-duration'))) {
 				const weekBegin = parseInt(attribute_or(duration,"weekBegin","1"));
 				const weekEnd = parseInt(attribute_or(duration,"weekEnd","16"));
 				const weekStep = parseInt(attribute_or(duration,"weekStep","1"));
@@ -76,24 +76,24 @@
 		for(const course of in_week_courses) {
 			if(new Date() > date_after(startDate,week_count - 1,course.day - 1,parse_time(course_end_time(course.classEnd)))) {
 				const node = wrap_node('success',large_center_div(`${course.name}<br/><code>${course.place}</code>`),
-					large_center_div(`<strong>周${["日","一","二","三","四","五","六"][course.day]} ${course.classBegin}~${course.classEnd}课</strong>`),
+					large_center_div(`<strong>${date_after(startDate,week_count - 1,course.day - 1,0).toLocaleDateString()} 周${["日","一","二","三","四","五","六"][course.day]} ${course.classBegin}~${course.classEnd}课</strong>`),
 					false);
 				sch_list.appendChild(node);
 				latest_node = node;
 			} else if(new Date() >= date_after(startDate,week_count - 1,course.day - 1,parse_time(course_begin_time(course.classEnd)))) {
 				const node = wrap_node('danger',large_center_div(`${course.name}<br/><code>${course.place}</code>`),
-					large_center_div(`<strong>周${["日","一","二","三","四","五","六"][course.day]} ${course.classBegin}~${course.classEnd}课</strong>`),
+					large_center_div(`<strong>${date_after(startDate,week_count - 1,course.day - 1,0).toLocaleDateString()} 周${["日","一","二","三","四","五","六"][course.day]} ${course.classBegin}~${course.classEnd}课</strong>`),
 					true);
 				sch_list.appendChild(node);
 				latest_node = node;
 			} else if(new Date() >= date_after(startDate,week_count - 1,course.day - 1,parse_time(course_begin_time(course.classEnd)) - 2400000)) {
 				const node = wrap_node('warning',large_center_div(`${course.name}<br/><code>${course.place}</code>`),
-					large_center_div(`<strong>周${["日","一","二","三","四","五","六"][course.day]} ${course.classBegin}~${course.classEnd}课</strong>`),
+					large_center_div(`<strong>${date_after(startDate,week_count - 1,course.day - 1,0).toLocaleDateString()} 周${["日","一","二","三","四","五","六"][course.day]} ${course.classBegin}~${course.classEnd}课</strong>`),
 					true);
 				sch_list.appendChild(node);
 			} else {
 				const node = wrap_node('abstract',large_center_div(`${course.name}<br/><code>${course.place}</code>`),
-					large_center_div(`<strong>周${["日","一","二","三","四","五","六"][course.day]} ${course.classBegin}~${course.classEnd}课</strong>`),
+					large_center_div(`<strong>${date_after(startDate,week_count - 1,course.day - 1,0).toLocaleDateString()} 周${["日","一","二","三","四","五","六"][course.day]} ${course.classBegin}~${course.classEnd}课</strong>`),
 					true);
 				sch_list.appendChild(node);
 			}
