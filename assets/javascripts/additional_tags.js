@@ -1,7 +1,53 @@
-(function() {
-	const attribute_or = function(elem,attr,val) {
-		return (elem.attributes[attr] || {value : val}).value;
+(function(...active) {
+	const attribute_or = function(o,a,v) { return (o.attributes[a] || {value : v}).value; };	
+	const get_upper_div = function(n,...I) {
+		while(I.includes(n.tagName))
+			n = n.parentNode;
+		return n;
 	};
+	const methods = {
+__grid_init : function(t,s) {
+	t.style.gridTemplateColumns = attribute_or(s,'columns','');
+	t.style.gridTemplateRows = attribute_or(s,'rows','');
+	t.style.gridGap = attribute_or(s,'gap','');
+	t.style.justifyItems = attribute_or(s,'align-x','');
+	t.style.alignItems = attribute_or(s,'align-y','');
+},
+
+anchor : function() {
+	for(const anc of Array.from(document.querySelectorAll('rs-anchor'))) {
+		const ancref = attribute_or(anc,'ref',null);
+		const ancsel = attribute_or(anc,'global','');
+		const ancmul = attribute_or(anc,'multiple',null);
+		if(ancmul == 'grid') {
+			anc.style.display = 'grid';
+			methods.__grid_init(anc,anc);
+			if(ancref != null)
+				anc.appendChild(get_upper_div(document.getElementById(ancref),'P','SUMMARY','RS-TAG'));
+			else
+				Array.from(document.querySelectorAll(ancsel)).map((node,_) => anc.appendChild(get_upper_div(node,'P','SUMMARY','RS-TAG')));
+		} else if(ancmul != null){
+			if(ancref != null)
+				anc.appendChild(get_upper_div(document.getElementById(ancref),'P','SUMMARY','RS-TAG'));
+			else
+				Array.from(document.querySelectorAll(ancsel)).map((node,_) => anc.appendChild(get_upper_div(node,'P','SUMMARY','RS-TAG')));
+		} else {
+			if(ancref != null)
+				anc.appendChild(get_upper_div(document.getElementById(ancref),'P','SUMMARY','RS-TAG'));
+			else
+				anc.appendChild(get_upper_div(document.querySelector(ancsel),'P','SUMMARY','RS-TAG'));
+		}
+	}
+},
+
+grid : function() {
+	const attribute_or = function(o,a,v) { return (o.attributes[a] || {value : v}).value; };
+	for(const grid of Array.from(document.querySelectorAll('rs-grid'))) {
+		methods.__grid_init(anc,anc);
+	}
+},
+
+schedule_list : function() {
 	const week_by = function(todate) {
 		return Math.floor((new Date() - new Date(todate)) / 7 / 86400 / 1000);
 	};
@@ -104,4 +150,18 @@
 		left : 0,
 		behavior : "smooth"
 	});
-})()
+},
+
+button : function() {
+	for(const btn of Array.from(document.querySelectorAll('rs-asbutton'))) {
+		const attr_names = btn.getAttributeNames();
+		const node = get_upper_div(btn,'P','SUMMARY','RS-TAG','RS-ASBUTTON');
+		for(const name of attr_names)
+			node.setAttribute(name,btn.attributes[name].value);
+		node.classList.add('rs-button');
+	}
+},
+	};
+	for(const name of active)
+		methods[name]();
+})('anchor','grid','button','schedule_list');
