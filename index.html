@@ -65,6 +65,14 @@
       
     
     
+      <link rel="stylesheet" href="assets/stylesheets/more_icons.css">
+    
+      <link rel="stylesheet" href="assets/stylesheets/more_icons_display.css">
+    
+      <link rel="stylesheet" href="assets/stylesheets/more_colorscheme.css">
+    
+      <link rel="stylesheet" href="assets/stylesheets/additional_tags.css">
+    
     <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -382,6 +390,20 @@
         <rs-duration weekBegin=1 weekEnd=16 day=5 classBegin=8 classEnd=9 />
     </rs-course>
 </rs-schedule></p>
+<script>
+const addWeek = (w) => {
+    const delta = (new URLSearchParams(window.location.href.split('?')[1])).get('week') || '0';
+    window.location.href = `?week=${parseInt(delta) + w}`;
+};
+</script>
+<p><rs-grid columns="repeat(5,minmax(0,1fr))" gap="1em">
+    <rs-button type="colorscheme-cc3399 i-previous" onclick="addWeek(-1)">上一周</rs-button>
+    <rs-placeholder></rs-placeholder>
+    <rs-placeholder></rs-placeholder>
+    <rs-placeholder></rs-placeholder>
+    <rs-button type="colorscheme-cc3399 i-next" onclick="addWeek(+1)">下一周</rs-button>
+</rs-grid></p>
+<p><rs-settings enable="schedule_list,button,grid" /></p>
 
 
 
