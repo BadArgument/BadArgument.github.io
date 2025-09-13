@@ -1,0 +1,2159 @@
+.md-typeset .admonition.colorscheme-000000,.md-typeset details.colorscheme-000000 {
+	border-color : #000000;
+}
+.md-typeset .colorscheme-000000>.admonition-title:before,.md-typeset .colorscheme-000000>summary:before {
+	background-color : #000000;
+}
+.md-typeset .colorscheme-000000>.admonition-title,.md-typeset .colorscheme-000000>summary {
+	background-color : #0000001a;
+}
+
+.md-typeset .admonition.colorscheme-000033,.md-typeset details.colorscheme-000033 {
+	border-color : #000033;
+}
+.md-typeset .colorscheme-000033>.admonition-title:before,.md-typeset .colorscheme-000033>summary:before {
+	background-color : #000033;
+}
+.md-typeset .colorscheme-000033>.admonition-title,.md-typeset .colorscheme-000033>summary {
+	background-color : #0000331a;
+}
+
+.md-typeset .admonition.colorscheme-000066,.md-typeset details.colorscheme-000066 {
+	border-color : #000066;
+}
+.md-typeset .colorscheme-000066>.admonition-title:before,.md-typeset .colorscheme-000066>summary:before {
+	background-color : #000066;
+}
+.md-typeset .colorscheme-000066>.admonition-title,.md-typeset .colorscheme-000066>summary {
+	background-color : #0000661a;
+}
+
+.md-typeset .admonition.colorscheme-000099,.md-typeset details.colorscheme-000099 {
+	border-color : #000099;
+}
+.md-typeset .colorscheme-000099>.admonition-title:before,.md-typeset .colorscheme-000099>summary:before {
+	background-color : #000099;
+}
+.md-typeset .colorscheme-000099>.admonition-title,.md-typeset .colorscheme-000099>summary {
+	background-color : #0000991a;
+}
+
+.md-typeset .admonition.colorscheme-0000cc,.md-typeset details.colorscheme-0000cc {
+	border-color : #0000cc;
+}
+.md-typeset .colorscheme-0000cc>.admonition-title:before,.md-typeset .colorscheme-0000cc>summary:before {
+	background-color : #0000cc;
+}
+.md-typeset .colorscheme-0000cc>.admonition-title,.md-typeset .colorscheme-0000cc>summary {
+	background-color : #0000cc1a;
+}
+
+.md-typeset .admonition.colorscheme-0000ff,.md-typeset details.colorscheme-0000ff {
+	border-color : #0000ff;
+}
+.md-typeset .colorscheme-0000ff>.admonition-title:before,.md-typeset .colorscheme-0000ff>summary:before {
+	background-color : #0000ff;
+}
+.md-typeset .colorscheme-0000ff>.admonition-title,.md-typeset .colorscheme-0000ff>summary {
+	background-color : #0000ff1a;
+}
+
+.md-typeset .admonition.colorscheme-003300,.md-typeset details.colorscheme-003300 {
+	border-color : #003300;
+}
+.md-typeset .colorscheme-003300>.admonition-title:before,.md-typeset .colorscheme-003300>summary:before {
+	background-color : #003300;
+}
+.md-typeset .colorscheme-003300>.admonition-title,.md-typeset .colorscheme-003300>summary {
+	background-color : #0033001a;
+}
+
+.md-typeset .admonition.colorscheme-003333,.md-typeset details.colorscheme-003333 {
+	border-color : #003333;
+}
+.md-typeset .colorscheme-003333>.admonition-title:before,.md-typeset .colorscheme-003333>summary:before {
+	background-color : #003333;
+}
+.md-typeset .colorscheme-003333>.admonition-title,.md-typeset .colorscheme-003333>summary {
+	background-color : #0033331a;
+}
+
+.md-typeset .admonition.colorscheme-003366,.md-typeset details.colorscheme-003366 {
+	border-color : #003366;
+}
+.md-typeset .colorscheme-003366>.admonition-title:before,.md-typeset .colorscheme-003366>summary:before {
+	background-color : #003366;
+}
+.md-typeset .colorscheme-003366>.admonition-title,.md-typeset .colorscheme-003366>summary {
+	background-color : #0033661a;
+}
+
+.md-typeset .admonition.colorscheme-003399,.md-typeset details.colorscheme-003399 {
+	border-color : #003399;
+}
+.md-typeset .colorscheme-003399>.admonition-title:before,.md-typeset .colorscheme-003399>summary:before {
+	background-color : #003399;
+}
+.md-typeset .colorscheme-003399>.admonition-title,.md-typeset .colorscheme-003399>summary {
+	background-color : #0033991a;
+}
+
+.md-typeset .admonition.colorscheme-0033cc,.md-typeset details.colorscheme-0033cc {
+	border-color : #0033cc;
+}
+.md-typeset .colorscheme-0033cc>.admonition-title:before,.md-typeset .colorscheme-0033cc>summary:before {
+	background-color : #0033cc;
+}
+.md-typeset .colorscheme-0033cc>.admonition-title,.md-typeset .colorscheme-0033cc>summary {
+	background-color : #0033cc1a;
+}
+
+.md-typeset .admonition.colorscheme-0033ff,.md-typeset details.colorscheme-0033ff {
+	border-color : #0033ff;
+}
+.md-typeset .colorscheme-0033ff>.admonition-title:before,.md-typeset .colorscheme-0033ff>summary:before {
+	background-color : #0033ff;
+}
+.md-typeset .colorscheme-0033ff>.admonition-title,.md-typeset .colorscheme-0033ff>summary {
+	background-color : #0033ff1a;
+}
+
+.md-typeset .admonition.colorscheme-006600,.md-typeset details.colorscheme-006600 {
+	border-color : #006600;
+}
+.md-typeset .colorscheme-006600>.admonition-title:before,.md-typeset .colorscheme-006600>summary:before {
+	background-color : #006600;
+}
+.md-typeset .colorscheme-006600>.admonition-title,.md-typeset .colorscheme-006600>summary {
+	background-color : #0066001a;
+}
+
+.md-typeset .admonition.colorscheme-006633,.md-typeset details.colorscheme-006633 {
+	border-color : #006633;
+}
+.md-typeset .colorscheme-006633>.admonition-title:before,.md-typeset .colorscheme-006633>summary:before {
+	background-color : #006633;
+}
+.md-typeset .colorscheme-006633>.admonition-title,.md-typeset .colorscheme-006633>summary {
+	background-color : #0066331a;
+}
+
+.md-typeset .admonition.colorscheme-006666,.md-typeset details.colorscheme-006666 {
+	border-color : #006666;
+}
+.md-typeset .colorscheme-006666>.admonition-title:before,.md-typeset .colorscheme-006666>summary:before {
+	background-color : #006666;
+}
+.md-typeset .colorscheme-006666>.admonition-title,.md-typeset .colorscheme-006666>summary {
+	background-color : #0066661a;
+}
+
+.md-typeset .admonition.colorscheme-006699,.md-typeset details.colorscheme-006699 {
+	border-color : #006699;
+}
+.md-typeset .colorscheme-006699>.admonition-title:before,.md-typeset .colorscheme-006699>summary:before {
+	background-color : #006699;
+}
+.md-typeset .colorscheme-006699>.admonition-title,.md-typeset .colorscheme-006699>summary {
+	background-color : #0066991a;
+}
+
+.md-typeset .admonition.colorscheme-0066cc,.md-typeset details.colorscheme-0066cc {
+	border-color : #0066cc;
+}
+.md-typeset .colorscheme-0066cc>.admonition-title:before,.md-typeset .colorscheme-0066cc>summary:before {
+	background-color : #0066cc;
+}
+.md-typeset .colorscheme-0066cc>.admonition-title,.md-typeset .colorscheme-0066cc>summary {
+	background-color : #0066cc1a;
+}
+
+.md-typeset .admonition.colorscheme-0066ff,.md-typeset details.colorscheme-0066ff {
+	border-color : #0066ff;
+}
+.md-typeset .colorscheme-0066ff>.admonition-title:before,.md-typeset .colorscheme-0066ff>summary:before {
+	background-color : #0066ff;
+}
+.md-typeset .colorscheme-0066ff>.admonition-title,.md-typeset .colorscheme-0066ff>summary {
+	background-color : #0066ff1a;
+}
+
+.md-typeset .admonition.colorscheme-009900,.md-typeset details.colorscheme-009900 {
+	border-color : #009900;
+}
+.md-typeset .colorscheme-009900>.admonition-title:before,.md-typeset .colorscheme-009900>summary:before {
+	background-color : #009900;
+}
+.md-typeset .colorscheme-009900>.admonition-title,.md-typeset .colorscheme-009900>summary {
+	background-color : #0099001a;
+}
+
+.md-typeset .admonition.colorscheme-009933,.md-typeset details.colorscheme-009933 {
+	border-color : #009933;
+}
+.md-typeset .colorscheme-009933>.admonition-title:before,.md-typeset .colorscheme-009933>summary:before {
+	background-color : #009933;
+}
+.md-typeset .colorscheme-009933>.admonition-title,.md-typeset .colorscheme-009933>summary {
+	background-color : #0099331a;
+}
+
+.md-typeset .admonition.colorscheme-009966,.md-typeset details.colorscheme-009966 {
+	border-color : #009966;
+}
+.md-typeset .colorscheme-009966>.admonition-title:before,.md-typeset .colorscheme-009966>summary:before {
+	background-color : #009966;
+}
+.md-typeset .colorscheme-009966>.admonition-title,.md-typeset .colorscheme-009966>summary {
+	background-color : #0099661a;
+}
+
+.md-typeset .admonition.colorscheme-009999,.md-typeset details.colorscheme-009999 {
+	border-color : #009999;
+}
+.md-typeset .colorscheme-009999>.admonition-title:before,.md-typeset .colorscheme-009999>summary:before {
+	background-color : #009999;
+}
+.md-typeset .colorscheme-009999>.admonition-title,.md-typeset .colorscheme-009999>summary {
+	background-color : #0099991a;
+}
+
+.md-typeset .admonition.colorscheme-0099cc,.md-typeset details.colorscheme-0099cc {
+	border-color : #0099cc;
+}
+.md-typeset .colorscheme-0099cc>.admonition-title:before,.md-typeset .colorscheme-0099cc>summary:before {
+	background-color : #0099cc;
+}
+.md-typeset .colorscheme-0099cc>.admonition-title,.md-typeset .colorscheme-0099cc>summary {
+	background-color : #0099cc1a;
+}
+
+.md-typeset .admonition.colorscheme-0099ff,.md-typeset details.colorscheme-0099ff {
+	border-color : #0099ff;
+}
+.md-typeset .colorscheme-0099ff>.admonition-title:before,.md-typeset .colorscheme-0099ff>summary:before {
+	background-color : #0099ff;
+}
+.md-typeset .colorscheme-0099ff>.admonition-title,.md-typeset .colorscheme-0099ff>summary {
+	background-color : #0099ff1a;
+}
+
+.md-typeset .admonition.colorscheme-00cc00,.md-typeset details.colorscheme-00cc00 {
+	border-color : #00cc00;
+}
+.md-typeset .colorscheme-00cc00>.admonition-title:before,.md-typeset .colorscheme-00cc00>summary:before {
+	background-color : #00cc00;
+}
+.md-typeset .colorscheme-00cc00>.admonition-title,.md-typeset .colorscheme-00cc00>summary {
+	background-color : #00cc001a;
+}
+
+.md-typeset .admonition.colorscheme-00cc33,.md-typeset details.colorscheme-00cc33 {
+	border-color : #00cc33;
+}
+.md-typeset .colorscheme-00cc33>.admonition-title:before,.md-typeset .colorscheme-00cc33>summary:before {
+	background-color : #00cc33;
+}
+.md-typeset .colorscheme-00cc33>.admonition-title,.md-typeset .colorscheme-00cc33>summary {
+	background-color : #00cc331a;
+}
+
+.md-typeset .admonition.colorscheme-00cc66,.md-typeset details.colorscheme-00cc66 {
+	border-color : #00cc66;
+}
+.md-typeset .colorscheme-00cc66>.admonition-title:before,.md-typeset .colorscheme-00cc66>summary:before {
+	background-color : #00cc66;
+}
+.md-typeset .colorscheme-00cc66>.admonition-title,.md-typeset .colorscheme-00cc66>summary {
+	background-color : #00cc661a;
+}
+
+.md-typeset .admonition.colorscheme-00cc99,.md-typeset details.colorscheme-00cc99 {
+	border-color : #00cc99;
+}
+.md-typeset .colorscheme-00cc99>.admonition-title:before,.md-typeset .colorscheme-00cc99>summary:before {
+	background-color : #00cc99;
+}
+.md-typeset .colorscheme-00cc99>.admonition-title,.md-typeset .colorscheme-00cc99>summary {
+	background-color : #00cc991a;
+}
+
+.md-typeset .admonition.colorscheme-00cccc,.md-typeset details.colorscheme-00cccc {
+	border-color : #00cccc;
+}
+.md-typeset .colorscheme-00cccc>.admonition-title:before,.md-typeset .colorscheme-00cccc>summary:before {
+	background-color : #00cccc;
+}
+.md-typeset .colorscheme-00cccc>.admonition-title,.md-typeset .colorscheme-00cccc>summary {
+	background-color : #00cccc1a;
+}
+
+.md-typeset .admonition.colorscheme-00ccff,.md-typeset details.colorscheme-00ccff {
+	border-color : #00ccff;
+}
+.md-typeset .colorscheme-00ccff>.admonition-title:before,.md-typeset .colorscheme-00ccff>summary:before {
+	background-color : #00ccff;
+}
+.md-typeset .colorscheme-00ccff>.admonition-title,.md-typeset .colorscheme-00ccff>summary {
+	background-color : #00ccff1a;
+}
+
+.md-typeset .admonition.colorscheme-00ff00,.md-typeset details.colorscheme-00ff00 {
+	border-color : #00ff00;
+}
+.md-typeset .colorscheme-00ff00>.admonition-title:before,.md-typeset .colorscheme-00ff00>summary:before {
+	background-color : #00ff00;
+}
+.md-typeset .colorscheme-00ff00>.admonition-title,.md-typeset .colorscheme-00ff00>summary {
+	background-color : #00ff001a;
+}
+
+.md-typeset .admonition.colorscheme-00ff33,.md-typeset details.colorscheme-00ff33 {
+	border-color : #00ff33;
+}
+.md-typeset .colorscheme-00ff33>.admonition-title:before,.md-typeset .colorscheme-00ff33>summary:before {
+	background-color : #00ff33;
+}
+.md-typeset .colorscheme-00ff33>.admonition-title,.md-typeset .colorscheme-00ff33>summary {
+	background-color : #00ff331a;
+}
+
+.md-typeset .admonition.colorscheme-00ff66,.md-typeset details.colorscheme-00ff66 {
+	border-color : #00ff66;
+}
+.md-typeset .colorscheme-00ff66>.admonition-title:before,.md-typeset .colorscheme-00ff66>summary:before {
+	background-color : #00ff66;
+}
+.md-typeset .colorscheme-00ff66>.admonition-title,.md-typeset .colorscheme-00ff66>summary {
+	background-color : #00ff661a;
+}
+
+.md-typeset .admonition.colorscheme-00ff99,.md-typeset details.colorscheme-00ff99 {
+	border-color : #00ff99;
+}
+.md-typeset .colorscheme-00ff99>.admonition-title:before,.md-typeset .colorscheme-00ff99>summary:before {
+	background-color : #00ff99;
+}
+.md-typeset .colorscheme-00ff99>.admonition-title,.md-typeset .colorscheme-00ff99>summary {
+	background-color : #00ff991a;
+}
+
+.md-typeset .admonition.colorscheme-00ffcc,.md-typeset details.colorscheme-00ffcc {
+	border-color : #00ffcc;
+}
+.md-typeset .colorscheme-00ffcc>.admonition-title:before,.md-typeset .colorscheme-00ffcc>summary:before {
+	background-color : #00ffcc;
+}
+.md-typeset .colorscheme-00ffcc>.admonition-title,.md-typeset .colorscheme-00ffcc>summary {
+	background-color : #00ffcc1a;
+}
+
+.md-typeset .admonition.colorscheme-00ffff,.md-typeset details.colorscheme-00ffff {
+	border-color : #00ffff;
+}
+.md-typeset .colorscheme-00ffff>.admonition-title:before,.md-typeset .colorscheme-00ffff>summary:before {
+	background-color : #00ffff;
+}
+.md-typeset .colorscheme-00ffff>.admonition-title,.md-typeset .colorscheme-00ffff>summary {
+	background-color : #00ffff1a;
+}
+
+.md-typeset .admonition.colorscheme-330000,.md-typeset details.colorscheme-330000 {
+	border-color : #330000;
+}
+.md-typeset .colorscheme-330000>.admonition-title:before,.md-typeset .colorscheme-330000>summary:before {
+	background-color : #330000;
+}
+.md-typeset .colorscheme-330000>.admonition-title,.md-typeset .colorscheme-330000>summary {
+	background-color : #3300001a;
+}
+
+.md-typeset .admonition.colorscheme-330033,.md-typeset details.colorscheme-330033 {
+	border-color : #330033;
+}
+.md-typeset .colorscheme-330033>.admonition-title:before,.md-typeset .colorscheme-330033>summary:before {
+	background-color : #330033;
+}
+.md-typeset .colorscheme-330033>.admonition-title,.md-typeset .colorscheme-330033>summary {
+	background-color : #3300331a;
+}
+
+.md-typeset .admonition.colorscheme-330066,.md-typeset details.colorscheme-330066 {
+	border-color : #330066;
+}
+.md-typeset .colorscheme-330066>.admonition-title:before,.md-typeset .colorscheme-330066>summary:before {
+	background-color : #330066;
+}
+.md-typeset .colorscheme-330066>.admonition-title,.md-typeset .colorscheme-330066>summary {
+	background-color : #3300661a;
+}
+
+.md-typeset .admonition.colorscheme-330099,.md-typeset details.colorscheme-330099 {
+	border-color : #330099;
+}
+.md-typeset .colorscheme-330099>.admonition-title:before,.md-typeset .colorscheme-330099>summary:before {
+	background-color : #330099;
+}
+.md-typeset .colorscheme-330099>.admonition-title,.md-typeset .colorscheme-330099>summary {
+	background-color : #3300991a;
+}
+
+.md-typeset .admonition.colorscheme-3300cc,.md-typeset details.colorscheme-3300cc {
+	border-color : #3300cc;
+}
+.md-typeset .colorscheme-3300cc>.admonition-title:before,.md-typeset .colorscheme-3300cc>summary:before {
+	background-color : #3300cc;
+}
+.md-typeset .colorscheme-3300cc>.admonition-title,.md-typeset .colorscheme-3300cc>summary {
+	background-color : #3300cc1a;
+}
+
+.md-typeset .admonition.colorscheme-3300ff,.md-typeset details.colorscheme-3300ff {
+	border-color : #3300ff;
+}
+.md-typeset .colorscheme-3300ff>.admonition-title:before,.md-typeset .colorscheme-3300ff>summary:before {
+	background-color : #3300ff;
+}
+.md-typeset .colorscheme-3300ff>.admonition-title,.md-typeset .colorscheme-3300ff>summary {
+	background-color : #3300ff1a;
+}
+
+.md-typeset .admonition.colorscheme-333300,.md-typeset details.colorscheme-333300 {
+	border-color : #333300;
+}
+.md-typeset .colorscheme-333300>.admonition-title:before,.md-typeset .colorscheme-333300>summary:before {
+	background-color : #333300;
+}
+.md-typeset .colorscheme-333300>.admonition-title,.md-typeset .colorscheme-333300>summary {
+	background-color : #3333001a;
+}
+
+.md-typeset .admonition.colorscheme-333333,.md-typeset details.colorscheme-333333 {
+	border-color : #333333;
+}
+.md-typeset .colorscheme-333333>.admonition-title:before,.md-typeset .colorscheme-333333>summary:before {
+	background-color : #333333;
+}
+.md-typeset .colorscheme-333333>.admonition-title,.md-typeset .colorscheme-333333>summary {
+	background-color : #3333331a;
+}
+
+.md-typeset .admonition.colorscheme-333366,.md-typeset details.colorscheme-333366 {
+	border-color : #333366;
+}
+.md-typeset .colorscheme-333366>.admonition-title:before,.md-typeset .colorscheme-333366>summary:before {
+	background-color : #333366;
+}
+.md-typeset .colorscheme-333366>.admonition-title,.md-typeset .colorscheme-333366>summary {
+	background-color : #3333661a;
+}
+
+.md-typeset .admonition.colorscheme-333399,.md-typeset details.colorscheme-333399 {
+	border-color : #333399;
+}
+.md-typeset .colorscheme-333399>.admonition-title:before,.md-typeset .colorscheme-333399>summary:before {
+	background-color : #333399;
+}
+.md-typeset .colorscheme-333399>.admonition-title,.md-typeset .colorscheme-333399>summary {
+	background-color : #3333991a;
+}
+
+.md-typeset .admonition.colorscheme-3333cc,.md-typeset details.colorscheme-3333cc {
+	border-color : #3333cc;
+}
+.md-typeset .colorscheme-3333cc>.admonition-title:before,.md-typeset .colorscheme-3333cc>summary:before {
+	background-color : #3333cc;
+}
+.md-typeset .colorscheme-3333cc>.admonition-title,.md-typeset .colorscheme-3333cc>summary {
+	background-color : #3333cc1a;
+}
+
+.md-typeset .admonition.colorscheme-3333ff,.md-typeset details.colorscheme-3333ff {
+	border-color : #3333ff;
+}
+.md-typeset .colorscheme-3333ff>.admonition-title:before,.md-typeset .colorscheme-3333ff>summary:before {
+	background-color : #3333ff;
+}
+.md-typeset .colorscheme-3333ff>.admonition-title,.md-typeset .colorscheme-3333ff>summary {
+	background-color : #3333ff1a;
+}
+
+.md-typeset .admonition.colorscheme-336600,.md-typeset details.colorscheme-336600 {
+	border-color : #336600;
+}
+.md-typeset .colorscheme-336600>.admonition-title:before,.md-typeset .colorscheme-336600>summary:before {
+	background-color : #336600;
+}
+.md-typeset .colorscheme-336600>.admonition-title,.md-typeset .colorscheme-336600>summary {
+	background-color : #3366001a;
+}
+
+.md-typeset .admonition.colorscheme-336633,.md-typeset details.colorscheme-336633 {
+	border-color : #336633;
+}
+.md-typeset .colorscheme-336633>.admonition-title:before,.md-typeset .colorscheme-336633>summary:before {
+	background-color : #336633;
+}
+.md-typeset .colorscheme-336633>.admonition-title,.md-typeset .colorscheme-336633>summary {
+	background-color : #3366331a;
+}
+
+.md-typeset .admonition.colorscheme-336666,.md-typeset details.colorscheme-336666 {
+	border-color : #336666;
+}
+.md-typeset .colorscheme-336666>.admonition-title:before,.md-typeset .colorscheme-336666>summary:before {
+	background-color : #336666;
+}
+.md-typeset .colorscheme-336666>.admonition-title,.md-typeset .colorscheme-336666>summary {
+	background-color : #3366661a;
+}
+
+.md-typeset .admonition.colorscheme-336699,.md-typeset details.colorscheme-336699 {
+	border-color : #336699;
+}
+.md-typeset .colorscheme-336699>.admonition-title:before,.md-typeset .colorscheme-336699>summary:before {
+	background-color : #336699;
+}
+.md-typeset .colorscheme-336699>.admonition-title,.md-typeset .colorscheme-336699>summary {
+	background-color : #3366991a;
+}
+
+.md-typeset .admonition.colorscheme-3366cc,.md-typeset details.colorscheme-3366cc {
+	border-color : #3366cc;
+}
+.md-typeset .colorscheme-3366cc>.admonition-title:before,.md-typeset .colorscheme-3366cc>summary:before {
+	background-color : #3366cc;
+}
+.md-typeset .colorscheme-3366cc>.admonition-title,.md-typeset .colorscheme-3366cc>summary {
+	background-color : #3366cc1a;
+}
+
+.md-typeset .admonition.colorscheme-3366ff,.md-typeset details.colorscheme-3366ff {
+	border-color : #3366ff;
+}
+.md-typeset .colorscheme-3366ff>.admonition-title:before,.md-typeset .colorscheme-3366ff>summary:before {
+	background-color : #3366ff;
+}
+.md-typeset .colorscheme-3366ff>.admonition-title,.md-typeset .colorscheme-3366ff>summary {
+	background-color : #3366ff1a;
+}
+
+.md-typeset .admonition.colorscheme-339900,.md-typeset details.colorscheme-339900 {
+	border-color : #339900;
+}
+.md-typeset .colorscheme-339900>.admonition-title:before,.md-typeset .colorscheme-339900>summary:before {
+	background-color : #339900;
+}
+.md-typeset .colorscheme-339900>.admonition-title,.md-typeset .colorscheme-339900>summary {
+	background-color : #3399001a;
+}
+
+.md-typeset .admonition.colorscheme-339933,.md-typeset details.colorscheme-339933 {
+	border-color : #339933;
+}
+.md-typeset .colorscheme-339933>.admonition-title:before,.md-typeset .colorscheme-339933>summary:before {
+	background-color : #339933;
+}
+.md-typeset .colorscheme-339933>.admonition-title,.md-typeset .colorscheme-339933>summary {
+	background-color : #3399331a;
+}
+
+.md-typeset .admonition.colorscheme-339966,.md-typeset details.colorscheme-339966 {
+	border-color : #339966;
+}
+.md-typeset .colorscheme-339966>.admonition-title:before,.md-typeset .colorscheme-339966>summary:before {
+	background-color : #339966;
+}
+.md-typeset .colorscheme-339966>.admonition-title,.md-typeset .colorscheme-339966>summary {
+	background-color : #3399661a;
+}
+
+.md-typeset .admonition.colorscheme-339999,.md-typeset details.colorscheme-339999 {
+	border-color : #339999;
+}
+.md-typeset .colorscheme-339999>.admonition-title:before,.md-typeset .colorscheme-339999>summary:before {
+	background-color : #339999;
+}
+.md-typeset .colorscheme-339999>.admonition-title,.md-typeset .colorscheme-339999>summary {
+	background-color : #3399991a;
+}
+
+.md-typeset .admonition.colorscheme-3399cc,.md-typeset details.colorscheme-3399cc {
+	border-color : #3399cc;
+}
+.md-typeset .colorscheme-3399cc>.admonition-title:before,.md-typeset .colorscheme-3399cc>summary:before {
+	background-color : #3399cc;
+}
+.md-typeset .colorscheme-3399cc>.admonition-title,.md-typeset .colorscheme-3399cc>summary {
+	background-color : #3399cc1a;
+}
+
+.md-typeset .admonition.colorscheme-3399ff,.md-typeset details.colorscheme-3399ff {
+	border-color : #3399ff;
+}
+.md-typeset .colorscheme-3399ff>.admonition-title:before,.md-typeset .colorscheme-3399ff>summary:before {
+	background-color : #3399ff;
+}
+.md-typeset .colorscheme-3399ff>.admonition-title,.md-typeset .colorscheme-3399ff>summary {
+	background-color : #3399ff1a;
+}
+
+.md-typeset .admonition.colorscheme-33cc00,.md-typeset details.colorscheme-33cc00 {
+	border-color : #33cc00;
+}
+.md-typeset .colorscheme-33cc00>.admonition-title:before,.md-typeset .colorscheme-33cc00>summary:before {
+	background-color : #33cc00;
+}
+.md-typeset .colorscheme-33cc00>.admonition-title,.md-typeset .colorscheme-33cc00>summary {
+	background-color : #33cc001a;
+}
+
+.md-typeset .admonition.colorscheme-33cc33,.md-typeset details.colorscheme-33cc33 {
+	border-color : #33cc33;
+}
+.md-typeset .colorscheme-33cc33>.admonition-title:before,.md-typeset .colorscheme-33cc33>summary:before {
+	background-color : #33cc33;
+}
+.md-typeset .colorscheme-33cc33>.admonition-title,.md-typeset .colorscheme-33cc33>summary {
+	background-color : #33cc331a;
+}
+
+.md-typeset .admonition.colorscheme-33cc66,.md-typeset details.colorscheme-33cc66 {
+	border-color : #33cc66;
+}
+.md-typeset .colorscheme-33cc66>.admonition-title:before,.md-typeset .colorscheme-33cc66>summary:before {
+	background-color : #33cc66;
+}
+.md-typeset .colorscheme-33cc66>.admonition-title,.md-typeset .colorscheme-33cc66>summary {
+	background-color : #33cc661a;
+}
+
+.md-typeset .admonition.colorscheme-33cc99,.md-typeset details.colorscheme-33cc99 {
+	border-color : #33cc99;
+}
+.md-typeset .colorscheme-33cc99>.admonition-title:before,.md-typeset .colorscheme-33cc99>summary:before {
+	background-color : #33cc99;
+}
+.md-typeset .colorscheme-33cc99>.admonition-title,.md-typeset .colorscheme-33cc99>summary {
+	background-color : #33cc991a;
+}
+
+.md-typeset .admonition.colorscheme-33cccc,.md-typeset details.colorscheme-33cccc {
+	border-color : #33cccc;
+}
+.md-typeset .colorscheme-33cccc>.admonition-title:before,.md-typeset .colorscheme-33cccc>summary:before {
+	background-color : #33cccc;
+}
+.md-typeset .colorscheme-33cccc>.admonition-title,.md-typeset .colorscheme-33cccc>summary {
+	background-color : #33cccc1a;
+}
+
+.md-typeset .admonition.colorscheme-33ccff,.md-typeset details.colorscheme-33ccff {
+	border-color : #33ccff;
+}
+.md-typeset .colorscheme-33ccff>.admonition-title:before,.md-typeset .colorscheme-33ccff>summary:before {
+	background-color : #33ccff;
+}
+.md-typeset .colorscheme-33ccff>.admonition-title,.md-typeset .colorscheme-33ccff>summary {
+	background-color : #33ccff1a;
+}
+
+.md-typeset .admonition.colorscheme-33ff00,.md-typeset details.colorscheme-33ff00 {
+	border-color : #33ff00;
+}
+.md-typeset .colorscheme-33ff00>.admonition-title:before,.md-typeset .colorscheme-33ff00>summary:before {
+	background-color : #33ff00;
+}
+.md-typeset .colorscheme-33ff00>.admonition-title,.md-typeset .colorscheme-33ff00>summary {
+	background-color : #33ff001a;
+}
+
+.md-typeset .admonition.colorscheme-33ff33,.md-typeset details.colorscheme-33ff33 {
+	border-color : #33ff33;
+}
+.md-typeset .colorscheme-33ff33>.admonition-title:before,.md-typeset .colorscheme-33ff33>summary:before {
+	background-color : #33ff33;
+}
+.md-typeset .colorscheme-33ff33>.admonition-title,.md-typeset .colorscheme-33ff33>summary {
+	background-color : #33ff331a;
+}
+
+.md-typeset .admonition.colorscheme-33ff66,.md-typeset details.colorscheme-33ff66 {
+	border-color : #33ff66;
+}
+.md-typeset .colorscheme-33ff66>.admonition-title:before,.md-typeset .colorscheme-33ff66>summary:before {
+	background-color : #33ff66;
+}
+.md-typeset .colorscheme-33ff66>.admonition-title,.md-typeset .colorscheme-33ff66>summary {
+	background-color : #33ff661a;
+}
+
+.md-typeset .admonition.colorscheme-33ff99,.md-typeset details.colorscheme-33ff99 {
+	border-color : #33ff99;
+}
+.md-typeset .colorscheme-33ff99>.admonition-title:before,.md-typeset .colorscheme-33ff99>summary:before {
+	background-color : #33ff99;
+}
+.md-typeset .colorscheme-33ff99>.admonition-title,.md-typeset .colorscheme-33ff99>summary {
+	background-color : #33ff991a;
+}
+
+.md-typeset .admonition.colorscheme-33ffcc,.md-typeset details.colorscheme-33ffcc {
+	border-color : #33ffcc;
+}
+.md-typeset .colorscheme-33ffcc>.admonition-title:before,.md-typeset .colorscheme-33ffcc>summary:before {
+	background-color : #33ffcc;
+}
+.md-typeset .colorscheme-33ffcc>.admonition-title,.md-typeset .colorscheme-33ffcc>summary {
+	background-color : #33ffcc1a;
+}
+
+.md-typeset .admonition.colorscheme-33ffff,.md-typeset details.colorscheme-33ffff {
+	border-color : #33ffff;
+}
+.md-typeset .colorscheme-33ffff>.admonition-title:before,.md-typeset .colorscheme-33ffff>summary:before {
+	background-color : #33ffff;
+}
+.md-typeset .colorscheme-33ffff>.admonition-title,.md-typeset .colorscheme-33ffff>summary {
+	background-color : #33ffff1a;
+}
+
+.md-typeset .admonition.colorscheme-660000,.md-typeset details.colorscheme-660000 {
+	border-color : #660000;
+}
+.md-typeset .colorscheme-660000>.admonition-title:before,.md-typeset .colorscheme-660000>summary:before {
+	background-color : #660000;
+}
+.md-typeset .colorscheme-660000>.admonition-title,.md-typeset .colorscheme-660000>summary {
+	background-color : #6600001a;
+}
+
+.md-typeset .admonition.colorscheme-660033,.md-typeset details.colorscheme-660033 {
+	border-color : #660033;
+}
+.md-typeset .colorscheme-660033>.admonition-title:before,.md-typeset .colorscheme-660033>summary:before {
+	background-color : #660033;
+}
+.md-typeset .colorscheme-660033>.admonition-title,.md-typeset .colorscheme-660033>summary {
+	background-color : #6600331a;
+}
+
+.md-typeset .admonition.colorscheme-660066,.md-typeset details.colorscheme-660066 {
+	border-color : #660066;
+}
+.md-typeset .colorscheme-660066>.admonition-title:before,.md-typeset .colorscheme-660066>summary:before {
+	background-color : #660066;
+}
+.md-typeset .colorscheme-660066>.admonition-title,.md-typeset .colorscheme-660066>summary {
+	background-color : #6600661a;
+}
+
+.md-typeset .admonition.colorscheme-660099,.md-typeset details.colorscheme-660099 {
+	border-color : #660099;
+}
+.md-typeset .colorscheme-660099>.admonition-title:before,.md-typeset .colorscheme-660099>summary:before {
+	background-color : #660099;
+}
+.md-typeset .colorscheme-660099>.admonition-title,.md-typeset .colorscheme-660099>summary {
+	background-color : #6600991a;
+}
+
+.md-typeset .admonition.colorscheme-6600cc,.md-typeset details.colorscheme-6600cc {
+	border-color : #6600cc;
+}
+.md-typeset .colorscheme-6600cc>.admonition-title:before,.md-typeset .colorscheme-6600cc>summary:before {
+	background-color : #6600cc;
+}
+.md-typeset .colorscheme-6600cc>.admonition-title,.md-typeset .colorscheme-6600cc>summary {
+	background-color : #6600cc1a;
+}
+
+.md-typeset .admonition.colorscheme-6600ff,.md-typeset details.colorscheme-6600ff {
+	border-color : #6600ff;
+}
+.md-typeset .colorscheme-6600ff>.admonition-title:before,.md-typeset .colorscheme-6600ff>summary:before {
+	background-color : #6600ff;
+}
+.md-typeset .colorscheme-6600ff>.admonition-title,.md-typeset .colorscheme-6600ff>summary {
+	background-color : #6600ff1a;
+}
+
+.md-typeset .admonition.colorscheme-663300,.md-typeset details.colorscheme-663300 {
+	border-color : #663300;
+}
+.md-typeset .colorscheme-663300>.admonition-title:before,.md-typeset .colorscheme-663300>summary:before {
+	background-color : #663300;
+}
+.md-typeset .colorscheme-663300>.admonition-title,.md-typeset .colorscheme-663300>summary {
+	background-color : #6633001a;
+}
+
+.md-typeset .admonition.colorscheme-663333,.md-typeset details.colorscheme-663333 {
+	border-color : #663333;
+}
+.md-typeset .colorscheme-663333>.admonition-title:before,.md-typeset .colorscheme-663333>summary:before {
+	background-color : #663333;
+}
+.md-typeset .colorscheme-663333>.admonition-title,.md-typeset .colorscheme-663333>summary {
+	background-color : #6633331a;
+}
+
+.md-typeset .admonition.colorscheme-663366,.md-typeset details.colorscheme-663366 {
+	border-color : #663366;
+}
+.md-typeset .colorscheme-663366>.admonition-title:before,.md-typeset .colorscheme-663366>summary:before {
+	background-color : #663366;
+}
+.md-typeset .colorscheme-663366>.admonition-title,.md-typeset .colorscheme-663366>summary {
+	background-color : #6633661a;
+}
+
+.md-typeset .admonition.colorscheme-663399,.md-typeset details.colorscheme-663399 {
+	border-color : #663399;
+}
+.md-typeset .colorscheme-663399>.admonition-title:before,.md-typeset .colorscheme-663399>summary:before {
+	background-color : #663399;
+}
+.md-typeset .colorscheme-663399>.admonition-title,.md-typeset .colorscheme-663399>summary {
+	background-color : #6633991a;
+}
+
+.md-typeset .admonition.colorscheme-6633cc,.md-typeset details.colorscheme-6633cc {
+	border-color : #6633cc;
+}
+.md-typeset .colorscheme-6633cc>.admonition-title:before,.md-typeset .colorscheme-6633cc>summary:before {
+	background-color : #6633cc;
+}
+.md-typeset .colorscheme-6633cc>.admonition-title,.md-typeset .colorscheme-6633cc>summary {
+	background-color : #6633cc1a;
+}
+
+.md-typeset .admonition.colorscheme-6633ff,.md-typeset details.colorscheme-6633ff {
+	border-color : #6633ff;
+}
+.md-typeset .colorscheme-6633ff>.admonition-title:before,.md-typeset .colorscheme-6633ff>summary:before {
+	background-color : #6633ff;
+}
+.md-typeset .colorscheme-6633ff>.admonition-title,.md-typeset .colorscheme-6633ff>summary {
+	background-color : #6633ff1a;
+}
+
+.md-typeset .admonition.colorscheme-666600,.md-typeset details.colorscheme-666600 {
+	border-color : #666600;
+}
+.md-typeset .colorscheme-666600>.admonition-title:before,.md-typeset .colorscheme-666600>summary:before {
+	background-color : #666600;
+}
+.md-typeset .colorscheme-666600>.admonition-title,.md-typeset .colorscheme-666600>summary {
+	background-color : #6666001a;
+}
+
+.md-typeset .admonition.colorscheme-666633,.md-typeset details.colorscheme-666633 {
+	border-color : #666633;
+}
+.md-typeset .colorscheme-666633>.admonition-title:before,.md-typeset .colorscheme-666633>summary:before {
+	background-color : #666633;
+}
+.md-typeset .colorscheme-666633>.admonition-title,.md-typeset .colorscheme-666633>summary {
+	background-color : #6666331a;
+}
+
+.md-typeset .admonition.colorscheme-666666,.md-typeset details.colorscheme-666666 {
+	border-color : #666666;
+}
+.md-typeset .colorscheme-666666>.admonition-title:before,.md-typeset .colorscheme-666666>summary:before {
+	background-color : #666666;
+}
+.md-typeset .colorscheme-666666>.admonition-title,.md-typeset .colorscheme-666666>summary {
+	background-color : #6666661a;
+}
+
+.md-typeset .admonition.colorscheme-666699,.md-typeset details.colorscheme-666699 {
+	border-color : #666699;
+}
+.md-typeset .colorscheme-666699>.admonition-title:before,.md-typeset .colorscheme-666699>summary:before {
+	background-color : #666699;
+}
+.md-typeset .colorscheme-666699>.admonition-title,.md-typeset .colorscheme-666699>summary {
+	background-color : #6666991a;
+}
+
+.md-typeset .admonition.colorscheme-6666cc,.md-typeset details.colorscheme-6666cc {
+	border-color : #6666cc;
+}
+.md-typeset .colorscheme-6666cc>.admonition-title:before,.md-typeset .colorscheme-6666cc>summary:before {
+	background-color : #6666cc;
+}
+.md-typeset .colorscheme-6666cc>.admonition-title,.md-typeset .colorscheme-6666cc>summary {
+	background-color : #6666cc1a;
+}
+
+.md-typeset .admonition.colorscheme-6666ff,.md-typeset details.colorscheme-6666ff {
+	border-color : #6666ff;
+}
+.md-typeset .colorscheme-6666ff>.admonition-title:before,.md-typeset .colorscheme-6666ff>summary:before {
+	background-color : #6666ff;
+}
+.md-typeset .colorscheme-6666ff>.admonition-title,.md-typeset .colorscheme-6666ff>summary {
+	background-color : #6666ff1a;
+}
+
+.md-typeset .admonition.colorscheme-669900,.md-typeset details.colorscheme-669900 {
+	border-color : #669900;
+}
+.md-typeset .colorscheme-669900>.admonition-title:before,.md-typeset .colorscheme-669900>summary:before {
+	background-color : #669900;
+}
+.md-typeset .colorscheme-669900>.admonition-title,.md-typeset .colorscheme-669900>summary {
+	background-color : #6699001a;
+}
+
+.md-typeset .admonition.colorscheme-669933,.md-typeset details.colorscheme-669933 {
+	border-color : #669933;
+}
+.md-typeset .colorscheme-669933>.admonition-title:before,.md-typeset .colorscheme-669933>summary:before {
+	background-color : #669933;
+}
+.md-typeset .colorscheme-669933>.admonition-title,.md-typeset .colorscheme-669933>summary {
+	background-color : #6699331a;
+}
+
+.md-typeset .admonition.colorscheme-669966,.md-typeset details.colorscheme-669966 {
+	border-color : #669966;
+}
+.md-typeset .colorscheme-669966>.admonition-title:before,.md-typeset .colorscheme-669966>summary:before {
+	background-color : #669966;
+}
+.md-typeset .colorscheme-669966>.admonition-title,.md-typeset .colorscheme-669966>summary {
+	background-color : #6699661a;
+}
+
+.md-typeset .admonition.colorscheme-669999,.md-typeset details.colorscheme-669999 {
+	border-color : #669999;
+}
+.md-typeset .colorscheme-669999>.admonition-title:before,.md-typeset .colorscheme-669999>summary:before {
+	background-color : #669999;
+}
+.md-typeset .colorscheme-669999>.admonition-title,.md-typeset .colorscheme-669999>summary {
+	background-color : #6699991a;
+}
+
+.md-typeset .admonition.colorscheme-6699cc,.md-typeset details.colorscheme-6699cc {
+	border-color : #6699cc;
+}
+.md-typeset .colorscheme-6699cc>.admonition-title:before,.md-typeset .colorscheme-6699cc>summary:before {
+	background-color : #6699cc;
+}
+.md-typeset .colorscheme-6699cc>.admonition-title,.md-typeset .colorscheme-6699cc>summary {
+	background-color : #6699cc1a;
+}
+
+.md-typeset .admonition.colorscheme-6699ff,.md-typeset details.colorscheme-6699ff {
+	border-color : #6699ff;
+}
+.md-typeset .colorscheme-6699ff>.admonition-title:before,.md-typeset .colorscheme-6699ff>summary:before {
+	background-color : #6699ff;
+}
+.md-typeset .colorscheme-6699ff>.admonition-title,.md-typeset .colorscheme-6699ff>summary {
+	background-color : #6699ff1a;
+}
+
+.md-typeset .admonition.colorscheme-66cc00,.md-typeset details.colorscheme-66cc00 {
+	border-color : #66cc00;
+}
+.md-typeset .colorscheme-66cc00>.admonition-title:before,.md-typeset .colorscheme-66cc00>summary:before {
+	background-color : #66cc00;
+}
+.md-typeset .colorscheme-66cc00>.admonition-title,.md-typeset .colorscheme-66cc00>summary {
+	background-color : #66cc001a;
+}
+
+.md-typeset .admonition.colorscheme-66cc33,.md-typeset details.colorscheme-66cc33 {
+	border-color : #66cc33;
+}
+.md-typeset .colorscheme-66cc33>.admonition-title:before,.md-typeset .colorscheme-66cc33>summary:before {
+	background-color : #66cc33;
+}
+.md-typeset .colorscheme-66cc33>.admonition-title,.md-typeset .colorscheme-66cc33>summary {
+	background-color : #66cc331a;
+}
+
+.md-typeset .admonition.colorscheme-66cc66,.md-typeset details.colorscheme-66cc66 {
+	border-color : #66cc66;
+}
+.md-typeset .colorscheme-66cc66>.admonition-title:before,.md-typeset .colorscheme-66cc66>summary:before {
+	background-color : #66cc66;
+}
+.md-typeset .colorscheme-66cc66>.admonition-title,.md-typeset .colorscheme-66cc66>summary {
+	background-color : #66cc661a;
+}
+
+.md-typeset .admonition.colorscheme-66cc99,.md-typeset details.colorscheme-66cc99 {
+	border-color : #66cc99;
+}
+.md-typeset .colorscheme-66cc99>.admonition-title:before,.md-typeset .colorscheme-66cc99>summary:before {
+	background-color : #66cc99;
+}
+.md-typeset .colorscheme-66cc99>.admonition-title,.md-typeset .colorscheme-66cc99>summary {
+	background-color : #66cc991a;
+}
+
+.md-typeset .admonition.colorscheme-66cccc,.md-typeset details.colorscheme-66cccc {
+	border-color : #66cccc;
+}
+.md-typeset .colorscheme-66cccc>.admonition-title:before,.md-typeset .colorscheme-66cccc>summary:before {
+	background-color : #66cccc;
+}
+.md-typeset .colorscheme-66cccc>.admonition-title,.md-typeset .colorscheme-66cccc>summary {
+	background-color : #66cccc1a;
+}
+
+.md-typeset .admonition.colorscheme-66ccff,.md-typeset details.colorscheme-66ccff {
+	border-color : #66ccff;
+}
+.md-typeset .colorscheme-66ccff>.admonition-title:before,.md-typeset .colorscheme-66ccff>summary:before {
+	background-color : #66ccff;
+}
+.md-typeset .colorscheme-66ccff>.admonition-title,.md-typeset .colorscheme-66ccff>summary {
+	background-color : #66ccff1a;
+}
+
+.md-typeset .admonition.colorscheme-66ff00,.md-typeset details.colorscheme-66ff00 {
+	border-color : #66ff00;
+}
+.md-typeset .colorscheme-66ff00>.admonition-title:before,.md-typeset .colorscheme-66ff00>summary:before {
+	background-color : #66ff00;
+}
+.md-typeset .colorscheme-66ff00>.admonition-title,.md-typeset .colorscheme-66ff00>summary {
+	background-color : #66ff001a;
+}
+
+.md-typeset .admonition.colorscheme-66ff33,.md-typeset details.colorscheme-66ff33 {
+	border-color : #66ff33;
+}
+.md-typeset .colorscheme-66ff33>.admonition-title:before,.md-typeset .colorscheme-66ff33>summary:before {
+	background-color : #66ff33;
+}
+.md-typeset .colorscheme-66ff33>.admonition-title,.md-typeset .colorscheme-66ff33>summary {
+	background-color : #66ff331a;
+}
+
+.md-typeset .admonition.colorscheme-66ff66,.md-typeset details.colorscheme-66ff66 {
+	border-color : #66ff66;
+}
+.md-typeset .colorscheme-66ff66>.admonition-title:before,.md-typeset .colorscheme-66ff66>summary:before {
+	background-color : #66ff66;
+}
+.md-typeset .colorscheme-66ff66>.admonition-title,.md-typeset .colorscheme-66ff66>summary {
+	background-color : #66ff661a;
+}
+
+.md-typeset .admonition.colorscheme-66ff99,.md-typeset details.colorscheme-66ff99 {
+	border-color : #66ff99;
+}
+.md-typeset .colorscheme-66ff99>.admonition-title:before,.md-typeset .colorscheme-66ff99>summary:before {
+	background-color : #66ff99;
+}
+.md-typeset .colorscheme-66ff99>.admonition-title,.md-typeset .colorscheme-66ff99>summary {
+	background-color : #66ff991a;
+}
+
+.md-typeset .admonition.colorscheme-66ffcc,.md-typeset details.colorscheme-66ffcc {
+	border-color : #66ffcc;
+}
+.md-typeset .colorscheme-66ffcc>.admonition-title:before,.md-typeset .colorscheme-66ffcc>summary:before {
+	background-color : #66ffcc;
+}
+.md-typeset .colorscheme-66ffcc>.admonition-title,.md-typeset .colorscheme-66ffcc>summary {
+	background-color : #66ffcc1a;
+}
+
+.md-typeset .admonition.colorscheme-66ffff,.md-typeset details.colorscheme-66ffff {
+	border-color : #66ffff;
+}
+.md-typeset .colorscheme-66ffff>.admonition-title:before,.md-typeset .colorscheme-66ffff>summary:before {
+	background-color : #66ffff;
+}
+.md-typeset .colorscheme-66ffff>.admonition-title,.md-typeset .colorscheme-66ffff>summary {
+	background-color : #66ffff1a;
+}
+
+.md-typeset .admonition.colorscheme-990000,.md-typeset details.colorscheme-990000 {
+	border-color : #990000;
+}
+.md-typeset .colorscheme-990000>.admonition-title:before,.md-typeset .colorscheme-990000>summary:before {
+	background-color : #990000;
+}
+.md-typeset .colorscheme-990000>.admonition-title,.md-typeset .colorscheme-990000>summary {
+	background-color : #9900001a;
+}
+
+.md-typeset .admonition.colorscheme-990033,.md-typeset details.colorscheme-990033 {
+	border-color : #990033;
+}
+.md-typeset .colorscheme-990033>.admonition-title:before,.md-typeset .colorscheme-990033>summary:before {
+	background-color : #990033;
+}
+.md-typeset .colorscheme-990033>.admonition-title,.md-typeset .colorscheme-990033>summary {
+	background-color : #9900331a;
+}
+
+.md-typeset .admonition.colorscheme-990066,.md-typeset details.colorscheme-990066 {
+	border-color : #990066;
+}
+.md-typeset .colorscheme-990066>.admonition-title:before,.md-typeset .colorscheme-990066>summary:before {
+	background-color : #990066;
+}
+.md-typeset .colorscheme-990066>.admonition-title,.md-typeset .colorscheme-990066>summary {
+	background-color : #9900661a;
+}
+
+.md-typeset .admonition.colorscheme-990099,.md-typeset details.colorscheme-990099 {
+	border-color : #990099;
+}
+.md-typeset .colorscheme-990099>.admonition-title:before,.md-typeset .colorscheme-990099>summary:before {
+	background-color : #990099;
+}
+.md-typeset .colorscheme-990099>.admonition-title,.md-typeset .colorscheme-990099>summary {
+	background-color : #9900991a;
+}
+
+.md-typeset .admonition.colorscheme-9900cc,.md-typeset details.colorscheme-9900cc {
+	border-color : #9900cc;
+}
+.md-typeset .colorscheme-9900cc>.admonition-title:before,.md-typeset .colorscheme-9900cc>summary:before {
+	background-color : #9900cc;
+}
+.md-typeset .colorscheme-9900cc>.admonition-title,.md-typeset .colorscheme-9900cc>summary {
+	background-color : #9900cc1a;
+}
+
+.md-typeset .admonition.colorscheme-9900ff,.md-typeset details.colorscheme-9900ff {
+	border-color : #9900ff;
+}
+.md-typeset .colorscheme-9900ff>.admonition-title:before,.md-typeset .colorscheme-9900ff>summary:before {
+	background-color : #9900ff;
+}
+.md-typeset .colorscheme-9900ff>.admonition-title,.md-typeset .colorscheme-9900ff>summary {
+	background-color : #9900ff1a;
+}
+
+.md-typeset .admonition.colorscheme-993300,.md-typeset details.colorscheme-993300 {
+	border-color : #993300;
+}
+.md-typeset .colorscheme-993300>.admonition-title:before,.md-typeset .colorscheme-993300>summary:before {
+	background-color : #993300;
+}
+.md-typeset .colorscheme-993300>.admonition-title,.md-typeset .colorscheme-993300>summary {
+	background-color : #9933001a;
+}
+
+.md-typeset .admonition.colorscheme-993333,.md-typeset details.colorscheme-993333 {
+	border-color : #993333;
+}
+.md-typeset .colorscheme-993333>.admonition-title:before,.md-typeset .colorscheme-993333>summary:before {
+	background-color : #993333;
+}
+.md-typeset .colorscheme-993333>.admonition-title,.md-typeset .colorscheme-993333>summary {
+	background-color : #9933331a;
+}
+
+.md-typeset .admonition.colorscheme-993366,.md-typeset details.colorscheme-993366 {
+	border-color : #993366;
+}
+.md-typeset .colorscheme-993366>.admonition-title:before,.md-typeset .colorscheme-993366>summary:before {
+	background-color : #993366;
+}
+.md-typeset .colorscheme-993366>.admonition-title,.md-typeset .colorscheme-993366>summary {
+	background-color : #9933661a;
+}
+
+.md-typeset .admonition.colorscheme-993399,.md-typeset details.colorscheme-993399 {
+	border-color : #993399;
+}
+.md-typeset .colorscheme-993399>.admonition-title:before,.md-typeset .colorscheme-993399>summary:before {
+	background-color : #993399;
+}
+.md-typeset .colorscheme-993399>.admonition-title,.md-typeset .colorscheme-993399>summary {
+	background-color : #9933991a;
+}
+
+.md-typeset .admonition.colorscheme-9933cc,.md-typeset details.colorscheme-9933cc {
+	border-color : #9933cc;
+}
+.md-typeset .colorscheme-9933cc>.admonition-title:before,.md-typeset .colorscheme-9933cc>summary:before {
+	background-color : #9933cc;
+}
+.md-typeset .colorscheme-9933cc>.admonition-title,.md-typeset .colorscheme-9933cc>summary {
+	background-color : #9933cc1a;
+}
+
+.md-typeset .admonition.colorscheme-9933ff,.md-typeset details.colorscheme-9933ff {
+	border-color : #9933ff;
+}
+.md-typeset .colorscheme-9933ff>.admonition-title:before,.md-typeset .colorscheme-9933ff>summary:before {
+	background-color : #9933ff;
+}
+.md-typeset .colorscheme-9933ff>.admonition-title,.md-typeset .colorscheme-9933ff>summary {
+	background-color : #9933ff1a;
+}
+
+.md-typeset .admonition.colorscheme-996600,.md-typeset details.colorscheme-996600 {
+	border-color : #996600;
+}
+.md-typeset .colorscheme-996600>.admonition-title:before,.md-typeset .colorscheme-996600>summary:before {
+	background-color : #996600;
+}
+.md-typeset .colorscheme-996600>.admonition-title,.md-typeset .colorscheme-996600>summary {
+	background-color : #9966001a;
+}
+
+.md-typeset .admonition.colorscheme-996633,.md-typeset details.colorscheme-996633 {
+	border-color : #996633;
+}
+.md-typeset .colorscheme-996633>.admonition-title:before,.md-typeset .colorscheme-996633>summary:before {
+	background-color : #996633;
+}
+.md-typeset .colorscheme-996633>.admonition-title,.md-typeset .colorscheme-996633>summary {
+	background-color : #9966331a;
+}
+
+.md-typeset .admonition.colorscheme-996666,.md-typeset details.colorscheme-996666 {
+	border-color : #996666;
+}
+.md-typeset .colorscheme-996666>.admonition-title:before,.md-typeset .colorscheme-996666>summary:before {
+	background-color : #996666;
+}
+.md-typeset .colorscheme-996666>.admonition-title,.md-typeset .colorscheme-996666>summary {
+	background-color : #9966661a;
+}
+
+.md-typeset .admonition.colorscheme-996699,.md-typeset details.colorscheme-996699 {
+	border-color : #996699;
+}
+.md-typeset .colorscheme-996699>.admonition-title:before,.md-typeset .colorscheme-996699>summary:before {
+	background-color : #996699;
+}
+.md-typeset .colorscheme-996699>.admonition-title,.md-typeset .colorscheme-996699>summary {
+	background-color : #9966991a;
+}
+
+.md-typeset .admonition.colorscheme-9966cc,.md-typeset details.colorscheme-9966cc {
+	border-color : #9966cc;
+}
+.md-typeset .colorscheme-9966cc>.admonition-title:before,.md-typeset .colorscheme-9966cc>summary:before {
+	background-color : #9966cc;
+}
+.md-typeset .colorscheme-9966cc>.admonition-title,.md-typeset .colorscheme-9966cc>summary {
+	background-color : #9966cc1a;
+}
+
+.md-typeset .admonition.colorscheme-9966ff,.md-typeset details.colorscheme-9966ff {
+	border-color : #9966ff;
+}
+.md-typeset .colorscheme-9966ff>.admonition-title:before,.md-typeset .colorscheme-9966ff>summary:before {
+	background-color : #9966ff;
+}
+.md-typeset .colorscheme-9966ff>.admonition-title,.md-typeset .colorscheme-9966ff>summary {
+	background-color : #9966ff1a;
+}
+
+.md-typeset .admonition.colorscheme-999900,.md-typeset details.colorscheme-999900 {
+	border-color : #999900;
+}
+.md-typeset .colorscheme-999900>.admonition-title:before,.md-typeset .colorscheme-999900>summary:before {
+	background-color : #999900;
+}
+.md-typeset .colorscheme-999900>.admonition-title,.md-typeset .colorscheme-999900>summary {
+	background-color : #9999001a;
+}
+
+.md-typeset .admonition.colorscheme-999933,.md-typeset details.colorscheme-999933 {
+	border-color : #999933;
+}
+.md-typeset .colorscheme-999933>.admonition-title:before,.md-typeset .colorscheme-999933>summary:before {
+	background-color : #999933;
+}
+.md-typeset .colorscheme-999933>.admonition-title,.md-typeset .colorscheme-999933>summary {
+	background-color : #9999331a;
+}
+
+.md-typeset .admonition.colorscheme-999966,.md-typeset details.colorscheme-999966 {
+	border-color : #999966;
+}
+.md-typeset .colorscheme-999966>.admonition-title:before,.md-typeset .colorscheme-999966>summary:before {
+	background-color : #999966;
+}
+.md-typeset .colorscheme-999966>.admonition-title,.md-typeset .colorscheme-999966>summary {
+	background-color : #9999661a;
+}
+
+.md-typeset .admonition.colorscheme-999999,.md-typeset details.colorscheme-999999 {
+	border-color : #999999;
+}
+.md-typeset .colorscheme-999999>.admonition-title:before,.md-typeset .colorscheme-999999>summary:before {
+	background-color : #999999;
+}
+.md-typeset .colorscheme-999999>.admonition-title,.md-typeset .colorscheme-999999>summary {
+	background-color : #9999991a;
+}
+
+.md-typeset .admonition.colorscheme-9999cc,.md-typeset details.colorscheme-9999cc {
+	border-color : #9999cc;
+}
+.md-typeset .colorscheme-9999cc>.admonition-title:before,.md-typeset .colorscheme-9999cc>summary:before {
+	background-color : #9999cc;
+}
+.md-typeset .colorscheme-9999cc>.admonition-title,.md-typeset .colorscheme-9999cc>summary {
+	background-color : #9999cc1a;
+}
+
+.md-typeset .admonition.colorscheme-9999ff,.md-typeset details.colorscheme-9999ff {
+	border-color : #9999ff;
+}
+.md-typeset .colorscheme-9999ff>.admonition-title:before,.md-typeset .colorscheme-9999ff>summary:before {
+	background-color : #9999ff;
+}
+.md-typeset .colorscheme-9999ff>.admonition-title,.md-typeset .colorscheme-9999ff>summary {
+	background-color : #9999ff1a;
+}
+
+.md-typeset .admonition.colorscheme-99cc00,.md-typeset details.colorscheme-99cc00 {
+	border-color : #99cc00;
+}
+.md-typeset .colorscheme-99cc00>.admonition-title:before,.md-typeset .colorscheme-99cc00>summary:before {
+	background-color : #99cc00;
+}
+.md-typeset .colorscheme-99cc00>.admonition-title,.md-typeset .colorscheme-99cc00>summary {
+	background-color : #99cc001a;
+}
+
+.md-typeset .admonition.colorscheme-99cc33,.md-typeset details.colorscheme-99cc33 {
+	border-color : #99cc33;
+}
+.md-typeset .colorscheme-99cc33>.admonition-title:before,.md-typeset .colorscheme-99cc33>summary:before {
+	background-color : #99cc33;
+}
+.md-typeset .colorscheme-99cc33>.admonition-title,.md-typeset .colorscheme-99cc33>summary {
+	background-color : #99cc331a;
+}
+
+.md-typeset .admonition.colorscheme-99cc66,.md-typeset details.colorscheme-99cc66 {
+	border-color : #99cc66;
+}
+.md-typeset .colorscheme-99cc66>.admonition-title:before,.md-typeset .colorscheme-99cc66>summary:before {
+	background-color : #99cc66;
+}
+.md-typeset .colorscheme-99cc66>.admonition-title,.md-typeset .colorscheme-99cc66>summary {
+	background-color : #99cc661a;
+}
+
+.md-typeset .admonition.colorscheme-99cc99,.md-typeset details.colorscheme-99cc99 {
+	border-color : #99cc99;
+}
+.md-typeset .colorscheme-99cc99>.admonition-title:before,.md-typeset .colorscheme-99cc99>summary:before {
+	background-color : #99cc99;
+}
+.md-typeset .colorscheme-99cc99>.admonition-title,.md-typeset .colorscheme-99cc99>summary {
+	background-color : #99cc991a;
+}
+
+.md-typeset .admonition.colorscheme-99cccc,.md-typeset details.colorscheme-99cccc {
+	border-color : #99cccc;
+}
+.md-typeset .colorscheme-99cccc>.admonition-title:before,.md-typeset .colorscheme-99cccc>summary:before {
+	background-color : #99cccc;
+}
+.md-typeset .colorscheme-99cccc>.admonition-title,.md-typeset .colorscheme-99cccc>summary {
+	background-color : #99cccc1a;
+}
+
+.md-typeset .admonition.colorscheme-99ccff,.md-typeset details.colorscheme-99ccff {
+	border-color : #99ccff;
+}
+.md-typeset .colorscheme-99ccff>.admonition-title:before,.md-typeset .colorscheme-99ccff>summary:before {
+	background-color : #99ccff;
+}
+.md-typeset .colorscheme-99ccff>.admonition-title,.md-typeset .colorscheme-99ccff>summary {
+	background-color : #99ccff1a;
+}
+
+.md-typeset .admonition.colorscheme-99ff00,.md-typeset details.colorscheme-99ff00 {
+	border-color : #99ff00;
+}
+.md-typeset .colorscheme-99ff00>.admonition-title:before,.md-typeset .colorscheme-99ff00>summary:before {
+	background-color : #99ff00;
+}
+.md-typeset .colorscheme-99ff00>.admonition-title,.md-typeset .colorscheme-99ff00>summary {
+	background-color : #99ff001a;
+}
+
+.md-typeset .admonition.colorscheme-99ff33,.md-typeset details.colorscheme-99ff33 {
+	border-color : #99ff33;
+}
+.md-typeset .colorscheme-99ff33>.admonition-title:before,.md-typeset .colorscheme-99ff33>summary:before {
+	background-color : #99ff33;
+}
+.md-typeset .colorscheme-99ff33>.admonition-title,.md-typeset .colorscheme-99ff33>summary {
+	background-color : #99ff331a;
+}
+
+.md-typeset .admonition.colorscheme-99ff66,.md-typeset details.colorscheme-99ff66 {
+	border-color : #99ff66;
+}
+.md-typeset .colorscheme-99ff66>.admonition-title:before,.md-typeset .colorscheme-99ff66>summary:before {
+	background-color : #99ff66;
+}
+.md-typeset .colorscheme-99ff66>.admonition-title,.md-typeset .colorscheme-99ff66>summary {
+	background-color : #99ff661a;
+}
+
+.md-typeset .admonition.colorscheme-99ff99,.md-typeset details.colorscheme-99ff99 {
+	border-color : #99ff99;
+}
+.md-typeset .colorscheme-99ff99>.admonition-title:before,.md-typeset .colorscheme-99ff99>summary:before {
+	background-color : #99ff99;
+}
+.md-typeset .colorscheme-99ff99>.admonition-title,.md-typeset .colorscheme-99ff99>summary {
+	background-color : #99ff991a;
+}
+
+.md-typeset .admonition.colorscheme-99ffcc,.md-typeset details.colorscheme-99ffcc {
+	border-color : #99ffcc;
+}
+.md-typeset .colorscheme-99ffcc>.admonition-title:before,.md-typeset .colorscheme-99ffcc>summary:before {
+	background-color : #99ffcc;
+}
+.md-typeset .colorscheme-99ffcc>.admonition-title,.md-typeset .colorscheme-99ffcc>summary {
+	background-color : #99ffcc1a;
+}
+
+.md-typeset .admonition.colorscheme-99ffff,.md-typeset details.colorscheme-99ffff {
+	border-color : #99ffff;
+}
+.md-typeset .colorscheme-99ffff>.admonition-title:before,.md-typeset .colorscheme-99ffff>summary:before {
+	background-color : #99ffff;
+}
+.md-typeset .colorscheme-99ffff>.admonition-title,.md-typeset .colorscheme-99ffff>summary {
+	background-color : #99ffff1a;
+}
+
+.md-typeset .admonition.colorscheme-cc0000,.md-typeset details.colorscheme-cc0000 {
+	border-color : #cc0000;
+}
+.md-typeset .colorscheme-cc0000>.admonition-title:before,.md-typeset .colorscheme-cc0000>summary:before {
+	background-color : #cc0000;
+}
+.md-typeset .colorscheme-cc0000>.admonition-title,.md-typeset .colorscheme-cc0000>summary {
+	background-color : #cc00001a;
+}
+
+.md-typeset .admonition.colorscheme-cc0033,.md-typeset details.colorscheme-cc0033 {
+	border-color : #cc0033;
+}
+.md-typeset .colorscheme-cc0033>.admonition-title:before,.md-typeset .colorscheme-cc0033>summary:before {
+	background-color : #cc0033;
+}
+.md-typeset .colorscheme-cc0033>.admonition-title,.md-typeset .colorscheme-cc0033>summary {
+	background-color : #cc00331a;
+}
+
+.md-typeset .admonition.colorscheme-cc0066,.md-typeset details.colorscheme-cc0066 {
+	border-color : #cc0066;
+}
+.md-typeset .colorscheme-cc0066>.admonition-title:before,.md-typeset .colorscheme-cc0066>summary:before {
+	background-color : #cc0066;
+}
+.md-typeset .colorscheme-cc0066>.admonition-title,.md-typeset .colorscheme-cc0066>summary {
+	background-color : #cc00661a;
+}
+
+.md-typeset .admonition.colorscheme-cc0099,.md-typeset details.colorscheme-cc0099 {
+	border-color : #cc0099;
+}
+.md-typeset .colorscheme-cc0099>.admonition-title:before,.md-typeset .colorscheme-cc0099>summary:before {
+	background-color : #cc0099;
+}
+.md-typeset .colorscheme-cc0099>.admonition-title,.md-typeset .colorscheme-cc0099>summary {
+	background-color : #cc00991a;
+}
+
+.md-typeset .admonition.colorscheme-cc00cc,.md-typeset details.colorscheme-cc00cc {
+	border-color : #cc00cc;
+}
+.md-typeset .colorscheme-cc00cc>.admonition-title:before,.md-typeset .colorscheme-cc00cc>summary:before {
+	background-color : #cc00cc;
+}
+.md-typeset .colorscheme-cc00cc>.admonition-title,.md-typeset .colorscheme-cc00cc>summary {
+	background-color : #cc00cc1a;
+}
+
+.md-typeset .admonition.colorscheme-cc00ff,.md-typeset details.colorscheme-cc00ff {
+	border-color : #cc00ff;
+}
+.md-typeset .colorscheme-cc00ff>.admonition-title:before,.md-typeset .colorscheme-cc00ff>summary:before {
+	background-color : #cc00ff;
+}
+.md-typeset .colorscheme-cc00ff>.admonition-title,.md-typeset .colorscheme-cc00ff>summary {
+	background-color : #cc00ff1a;
+}
+
+.md-typeset .admonition.colorscheme-cc3300,.md-typeset details.colorscheme-cc3300 {
+	border-color : #cc3300;
+}
+.md-typeset .colorscheme-cc3300>.admonition-title:before,.md-typeset .colorscheme-cc3300>summary:before {
+	background-color : #cc3300;
+}
+.md-typeset .colorscheme-cc3300>.admonition-title,.md-typeset .colorscheme-cc3300>summary {
+	background-color : #cc33001a;
+}
+
+.md-typeset .admonition.colorscheme-cc3333,.md-typeset details.colorscheme-cc3333 {
+	border-color : #cc3333;
+}
+.md-typeset .colorscheme-cc3333>.admonition-title:before,.md-typeset .colorscheme-cc3333>summary:before {
+	background-color : #cc3333;
+}
+.md-typeset .colorscheme-cc3333>.admonition-title,.md-typeset .colorscheme-cc3333>summary {
+	background-color : #cc33331a;
+}
+
+.md-typeset .admonition.colorscheme-cc3366,.md-typeset details.colorscheme-cc3366 {
+	border-color : #cc3366;
+}
+.md-typeset .colorscheme-cc3366>.admonition-title:before,.md-typeset .colorscheme-cc3366>summary:before {
+	background-color : #cc3366;
+}
+.md-typeset .colorscheme-cc3366>.admonition-title,.md-typeset .colorscheme-cc3366>summary {
+	background-color : #cc33661a;
+}
+
+.md-typeset .admonition.colorscheme-cc3399,.md-typeset details.colorscheme-cc3399 {
+	border-color : #cc3399;
+}
+.md-typeset .colorscheme-cc3399>.admonition-title:before,.md-typeset .colorscheme-cc3399>summary:before {
+	background-color : #cc3399;
+}
+.md-typeset .colorscheme-cc3399>.admonition-title,.md-typeset .colorscheme-cc3399>summary {
+	background-color : #cc33991a;
+}
+
+.md-typeset .admonition.colorscheme-cc33cc,.md-typeset details.colorscheme-cc33cc {
+	border-color : #cc33cc;
+}
+.md-typeset .colorscheme-cc33cc>.admonition-title:before,.md-typeset .colorscheme-cc33cc>summary:before {
+	background-color : #cc33cc;
+}
+.md-typeset .colorscheme-cc33cc>.admonition-title,.md-typeset .colorscheme-cc33cc>summary {
+	background-color : #cc33cc1a;
+}
+
+.md-typeset .admonition.colorscheme-cc33ff,.md-typeset details.colorscheme-cc33ff {
+	border-color : #cc33ff;
+}
+.md-typeset .colorscheme-cc33ff>.admonition-title:before,.md-typeset .colorscheme-cc33ff>summary:before {
+	background-color : #cc33ff;
+}
+.md-typeset .colorscheme-cc33ff>.admonition-title,.md-typeset .colorscheme-cc33ff>summary {
+	background-color : #cc33ff1a;
+}
+
+.md-typeset .admonition.colorscheme-cc6600,.md-typeset details.colorscheme-cc6600 {
+	border-color : #cc6600;
+}
+.md-typeset .colorscheme-cc6600>.admonition-title:before,.md-typeset .colorscheme-cc6600>summary:before {
+	background-color : #cc6600;
+}
+.md-typeset .colorscheme-cc6600>.admonition-title,.md-typeset .colorscheme-cc6600>summary {
+	background-color : #cc66001a;
+}
+
+.md-typeset .admonition.colorscheme-cc6633,.md-typeset details.colorscheme-cc6633 {
+	border-color : #cc6633;
+}
+.md-typeset .colorscheme-cc6633>.admonition-title:before,.md-typeset .colorscheme-cc6633>summary:before {
+	background-color : #cc6633;
+}
+.md-typeset .colorscheme-cc6633>.admonition-title,.md-typeset .colorscheme-cc6633>summary {
+	background-color : #cc66331a;
+}
+
+.md-typeset .admonition.colorscheme-cc6666,.md-typeset details.colorscheme-cc6666 {
+	border-color : #cc6666;
+}
+.md-typeset .colorscheme-cc6666>.admonition-title:before,.md-typeset .colorscheme-cc6666>summary:before {
+	background-color : #cc6666;
+}
+.md-typeset .colorscheme-cc6666>.admonition-title,.md-typeset .colorscheme-cc6666>summary {
+	background-color : #cc66661a;
+}
+
+.md-typeset .admonition.colorscheme-cc6699,.md-typeset details.colorscheme-cc6699 {
+	border-color : #cc6699;
+}
+.md-typeset .colorscheme-cc6699>.admonition-title:before,.md-typeset .colorscheme-cc6699>summary:before {
+	background-color : #cc6699;
+}
+.md-typeset .colorscheme-cc6699>.admonition-title,.md-typeset .colorscheme-cc6699>summary {
+	background-color : #cc66991a;
+}
+
+.md-typeset .admonition.colorscheme-cc66cc,.md-typeset details.colorscheme-cc66cc {
+	border-color : #cc66cc;
+}
+.md-typeset .colorscheme-cc66cc>.admonition-title:before,.md-typeset .colorscheme-cc66cc>summary:before {
+	background-color : #cc66cc;
+}
+.md-typeset .colorscheme-cc66cc>.admonition-title,.md-typeset .colorscheme-cc66cc>summary {
+	background-color : #cc66cc1a;
+}
+
+.md-typeset .admonition.colorscheme-cc66ff,.md-typeset details.colorscheme-cc66ff {
+	border-color : #cc66ff;
+}
+.md-typeset .colorscheme-cc66ff>.admonition-title:before,.md-typeset .colorscheme-cc66ff>summary:before {
+	background-color : #cc66ff;
+}
+.md-typeset .colorscheme-cc66ff>.admonition-title,.md-typeset .colorscheme-cc66ff>summary {
+	background-color : #cc66ff1a;
+}
+
+.md-typeset .admonition.colorscheme-cc9900,.md-typeset details.colorscheme-cc9900 {
+	border-color : #cc9900;
+}
+.md-typeset .colorscheme-cc9900>.admonition-title:before,.md-typeset .colorscheme-cc9900>summary:before {
+	background-color : #cc9900;
+}
+.md-typeset .colorscheme-cc9900>.admonition-title,.md-typeset .colorscheme-cc9900>summary {
+	background-color : #cc99001a;
+}
+
+.md-typeset .admonition.colorscheme-cc9933,.md-typeset details.colorscheme-cc9933 {
+	border-color : #cc9933;
+}
+.md-typeset .colorscheme-cc9933>.admonition-title:before,.md-typeset .colorscheme-cc9933>summary:before {
+	background-color : #cc9933;
+}
+.md-typeset .colorscheme-cc9933>.admonition-title,.md-typeset .colorscheme-cc9933>summary {
+	background-color : #cc99331a;
+}
+
+.md-typeset .admonition.colorscheme-cc9966,.md-typeset details.colorscheme-cc9966 {
+	border-color : #cc9966;
+}
+.md-typeset .colorscheme-cc9966>.admonition-title:before,.md-typeset .colorscheme-cc9966>summary:before {
+	background-color : #cc9966;
+}
+.md-typeset .colorscheme-cc9966>.admonition-title,.md-typeset .colorscheme-cc9966>summary {
+	background-color : #cc99661a;
+}
+
+.md-typeset .admonition.colorscheme-cc9999,.md-typeset details.colorscheme-cc9999 {
+	border-color : #cc9999;
+}
+.md-typeset .colorscheme-cc9999>.admonition-title:before,.md-typeset .colorscheme-cc9999>summary:before {
+	background-color : #cc9999;
+}
+.md-typeset .colorscheme-cc9999>.admonition-title,.md-typeset .colorscheme-cc9999>summary {
+	background-color : #cc99991a;
+}
+
+.md-typeset .admonition.colorscheme-cc99cc,.md-typeset details.colorscheme-cc99cc {
+	border-color : #cc99cc;
+}
+.md-typeset .colorscheme-cc99cc>.admonition-title:before,.md-typeset .colorscheme-cc99cc>summary:before {
+	background-color : #cc99cc;
+}
+.md-typeset .colorscheme-cc99cc>.admonition-title,.md-typeset .colorscheme-cc99cc>summary {
+	background-color : #cc99cc1a;
+}
+
+.md-typeset .admonition.colorscheme-cc99ff,.md-typeset details.colorscheme-cc99ff {
+	border-color : #cc99ff;
+}
+.md-typeset .colorscheme-cc99ff>.admonition-title:before,.md-typeset .colorscheme-cc99ff>summary:before {
+	background-color : #cc99ff;
+}
+.md-typeset .colorscheme-cc99ff>.admonition-title,.md-typeset .colorscheme-cc99ff>summary {
+	background-color : #cc99ff1a;
+}
+
+.md-typeset .admonition.colorscheme-cccc00,.md-typeset details.colorscheme-cccc00 {
+	border-color : #cccc00;
+}
+.md-typeset .colorscheme-cccc00>.admonition-title:before,.md-typeset .colorscheme-cccc00>summary:before {
+	background-color : #cccc00;
+}
+.md-typeset .colorscheme-cccc00>.admonition-title,.md-typeset .colorscheme-cccc00>summary {
+	background-color : #cccc001a;
+}
+
+.md-typeset .admonition.colorscheme-cccc33,.md-typeset details.colorscheme-cccc33 {
+	border-color : #cccc33;
+}
+.md-typeset .colorscheme-cccc33>.admonition-title:before,.md-typeset .colorscheme-cccc33>summary:before {
+	background-color : #cccc33;
+}
+.md-typeset .colorscheme-cccc33>.admonition-title,.md-typeset .colorscheme-cccc33>summary {
+	background-color : #cccc331a;
+}
+
+.md-typeset .admonition.colorscheme-cccc66,.md-typeset details.colorscheme-cccc66 {
+	border-color : #cccc66;
+}
+.md-typeset .colorscheme-cccc66>.admonition-title:before,.md-typeset .colorscheme-cccc66>summary:before {
+	background-color : #cccc66;
+}
+.md-typeset .colorscheme-cccc66>.admonition-title,.md-typeset .colorscheme-cccc66>summary {
+	background-color : #cccc661a;
+}
+
+.md-typeset .admonition.colorscheme-cccc99,.md-typeset details.colorscheme-cccc99 {
+	border-color : #cccc99;
+}
+.md-typeset .colorscheme-cccc99>.admonition-title:before,.md-typeset .colorscheme-cccc99>summary:before {
+	background-color : #cccc99;
+}
+.md-typeset .colorscheme-cccc99>.admonition-title,.md-typeset .colorscheme-cccc99>summary {
+	background-color : #cccc991a;
+}
+
+.md-typeset .admonition.colorscheme-cccccc,.md-typeset details.colorscheme-cccccc {
+	border-color : #cccccc;
+}
+.md-typeset .colorscheme-cccccc>.admonition-title:before,.md-typeset .colorscheme-cccccc>summary:before {
+	background-color : #cccccc;
+}
+.md-typeset .colorscheme-cccccc>.admonition-title,.md-typeset .colorscheme-cccccc>summary {
+	background-color : #cccccc1a;
+}
+
+.md-typeset .admonition.colorscheme-ccccff,.md-typeset details.colorscheme-ccccff {
+	border-color : #ccccff;
+}
+.md-typeset .colorscheme-ccccff>.admonition-title:before,.md-typeset .colorscheme-ccccff>summary:before {
+	background-color : #ccccff;
+}
+.md-typeset .colorscheme-ccccff>.admonition-title,.md-typeset .colorscheme-ccccff>summary {
+	background-color : #ccccff1a;
+}
+
+.md-typeset .admonition.colorscheme-ccff00,.md-typeset details.colorscheme-ccff00 {
+	border-color : #ccff00;
+}
+.md-typeset .colorscheme-ccff00>.admonition-title:before,.md-typeset .colorscheme-ccff00>summary:before {
+	background-color : #ccff00;
+}
+.md-typeset .colorscheme-ccff00>.admonition-title,.md-typeset .colorscheme-ccff00>summary {
+	background-color : #ccff001a;
+}
+
+.md-typeset .admonition.colorscheme-ccff33,.md-typeset details.colorscheme-ccff33 {
+	border-color : #ccff33;
+}
+.md-typeset .colorscheme-ccff33>.admonition-title:before,.md-typeset .colorscheme-ccff33>summary:before {
+	background-color : #ccff33;
+}
+.md-typeset .colorscheme-ccff33>.admonition-title,.md-typeset .colorscheme-ccff33>summary {
+	background-color : #ccff331a;
+}
+
+.md-typeset .admonition.colorscheme-ccff66,.md-typeset details.colorscheme-ccff66 {
+	border-color : #ccff66;
+}
+.md-typeset .colorscheme-ccff66>.admonition-title:before,.md-typeset .colorscheme-ccff66>summary:before {
+	background-color : #ccff66;
+}
+.md-typeset .colorscheme-ccff66>.admonition-title,.md-typeset .colorscheme-ccff66>summary {
+	background-color : #ccff661a;
+}
+
+.md-typeset .admonition.colorscheme-ccff99,.md-typeset details.colorscheme-ccff99 {
+	border-color : #ccff99;
+}
+.md-typeset .colorscheme-ccff99>.admonition-title:before,.md-typeset .colorscheme-ccff99>summary:before {
+	background-color : #ccff99;
+}
+.md-typeset .colorscheme-ccff99>.admonition-title,.md-typeset .colorscheme-ccff99>summary {
+	background-color : #ccff991a;
+}
+
+.md-typeset .admonition.colorscheme-ccffcc,.md-typeset details.colorscheme-ccffcc {
+	border-color : #ccffcc;
+}
+.md-typeset .colorscheme-ccffcc>.admonition-title:before,.md-typeset .colorscheme-ccffcc>summary:before {
+	background-color : #ccffcc;
+}
+.md-typeset .colorscheme-ccffcc>.admonition-title,.md-typeset .colorscheme-ccffcc>summary {
+	background-color : #ccffcc1a;
+}
+
+.md-typeset .admonition.colorscheme-ccffff,.md-typeset details.colorscheme-ccffff {
+	border-color : #ccffff;
+}
+.md-typeset .colorscheme-ccffff>.admonition-title:before,.md-typeset .colorscheme-ccffff>summary:before {
+	background-color : #ccffff;
+}
+.md-typeset .colorscheme-ccffff>.admonition-title,.md-typeset .colorscheme-ccffff>summary {
+	background-color : #ccffff1a;
+}
+
+.md-typeset .admonition.colorscheme-ff0000,.md-typeset details.colorscheme-ff0000 {
+	border-color : #ff0000;
+}
+.md-typeset .colorscheme-ff0000>.admonition-title:before,.md-typeset .colorscheme-ff0000>summary:before {
+	background-color : #ff0000;
+}
+.md-typeset .colorscheme-ff0000>.admonition-title,.md-typeset .colorscheme-ff0000>summary {
+	background-color : #ff00001a;
+}
+
+.md-typeset .admonition.colorscheme-ff0033,.md-typeset details.colorscheme-ff0033 {
+	border-color : #ff0033;
+}
+.md-typeset .colorscheme-ff0033>.admonition-title:before,.md-typeset .colorscheme-ff0033>summary:before {
+	background-color : #ff0033;
+}
+.md-typeset .colorscheme-ff0033>.admonition-title,.md-typeset .colorscheme-ff0033>summary {
+	background-color : #ff00331a;
+}
+
+.md-typeset .admonition.colorscheme-ff0066,.md-typeset details.colorscheme-ff0066 {
+	border-color : #ff0066;
+}
+.md-typeset .colorscheme-ff0066>.admonition-title:before,.md-typeset .colorscheme-ff0066>summary:before {
+	background-color : #ff0066;
+}
+.md-typeset .colorscheme-ff0066>.admonition-title,.md-typeset .colorscheme-ff0066>summary {
+	background-color : #ff00661a;
+}
+
+.md-typeset .admonition.colorscheme-ff0099,.md-typeset details.colorscheme-ff0099 {
+	border-color : #ff0099;
+}
+.md-typeset .colorscheme-ff0099>.admonition-title:before,.md-typeset .colorscheme-ff0099>summary:before {
+	background-color : #ff0099;
+}
+.md-typeset .colorscheme-ff0099>.admonition-title,.md-typeset .colorscheme-ff0099>summary {
+	background-color : #ff00991a;
+}
+
+.md-typeset .admonition.colorscheme-ff00cc,.md-typeset details.colorscheme-ff00cc {
+	border-color : #ff00cc;
+}
+.md-typeset .colorscheme-ff00cc>.admonition-title:before,.md-typeset .colorscheme-ff00cc>summary:before {
+	background-color : #ff00cc;
+}
+.md-typeset .colorscheme-ff00cc>.admonition-title,.md-typeset .colorscheme-ff00cc>summary {
+	background-color : #ff00cc1a;
+}
+
+.md-typeset .admonition.colorscheme-ff00ff,.md-typeset details.colorscheme-ff00ff {
+	border-color : #ff00ff;
+}
+.md-typeset .colorscheme-ff00ff>.admonition-title:before,.md-typeset .colorscheme-ff00ff>summary:before {
+	background-color : #ff00ff;
+}
+.md-typeset .colorscheme-ff00ff>.admonition-title,.md-typeset .colorscheme-ff00ff>summary {
+	background-color : #ff00ff1a;
+}
+
+.md-typeset .admonition.colorscheme-ff3300,.md-typeset details.colorscheme-ff3300 {
+	border-color : #ff3300;
+}
+.md-typeset .colorscheme-ff3300>.admonition-title:before,.md-typeset .colorscheme-ff3300>summary:before {
+	background-color : #ff3300;
+}
+.md-typeset .colorscheme-ff3300>.admonition-title,.md-typeset .colorscheme-ff3300>summary {
+	background-color : #ff33001a;
+}
+
+.md-typeset .admonition.colorscheme-ff3333,.md-typeset details.colorscheme-ff3333 {
+	border-color : #ff3333;
+}
+.md-typeset .colorscheme-ff3333>.admonition-title:before,.md-typeset .colorscheme-ff3333>summary:before {
+	background-color : #ff3333;
+}
+.md-typeset .colorscheme-ff3333>.admonition-title,.md-typeset .colorscheme-ff3333>summary {
+	background-color : #ff33331a;
+}
+
+.md-typeset .admonition.colorscheme-ff3366,.md-typeset details.colorscheme-ff3366 {
+	border-color : #ff3366;
+}
+.md-typeset .colorscheme-ff3366>.admonition-title:before,.md-typeset .colorscheme-ff3366>summary:before {
+	background-color : #ff3366;
+}
+.md-typeset .colorscheme-ff3366>.admonition-title,.md-typeset .colorscheme-ff3366>summary {
+	background-color : #ff33661a;
+}
+
+.md-typeset .admonition.colorscheme-ff3399,.md-typeset details.colorscheme-ff3399 {
+	border-color : #ff3399;
+}
+.md-typeset .colorscheme-ff3399>.admonition-title:before,.md-typeset .colorscheme-ff3399>summary:before {
+	background-color : #ff3399;
+}
+.md-typeset .colorscheme-ff3399>.admonition-title,.md-typeset .colorscheme-ff3399>summary {
+	background-color : #ff33991a;
+}
+
+.md-typeset .admonition.colorscheme-ff33cc,.md-typeset details.colorscheme-ff33cc {
+	border-color : #ff33cc;
+}
+.md-typeset .colorscheme-ff33cc>.admonition-title:before,.md-typeset .colorscheme-ff33cc>summary:before {
+	background-color : #ff33cc;
+}
+.md-typeset .colorscheme-ff33cc>.admonition-title,.md-typeset .colorscheme-ff33cc>summary {
+	background-color : #ff33cc1a;
+}
+
+.md-typeset .admonition.colorscheme-ff33ff,.md-typeset details.colorscheme-ff33ff {
+	border-color : #ff33ff;
+}
+.md-typeset .colorscheme-ff33ff>.admonition-title:before,.md-typeset .colorscheme-ff33ff>summary:before {
+	background-color : #ff33ff;
+}
+.md-typeset .colorscheme-ff33ff>.admonition-title,.md-typeset .colorscheme-ff33ff>summary {
+	background-color : #ff33ff1a;
+}
+
+.md-typeset .admonition.colorscheme-ff6600,.md-typeset details.colorscheme-ff6600 {
+	border-color : #ff6600;
+}
+.md-typeset .colorscheme-ff6600>.admonition-title:before,.md-typeset .colorscheme-ff6600>summary:before {
+	background-color : #ff6600;
+}
+.md-typeset .colorscheme-ff6600>.admonition-title,.md-typeset .colorscheme-ff6600>summary {
+	background-color : #ff66001a;
+}
+
+.md-typeset .admonition.colorscheme-ff6633,.md-typeset details.colorscheme-ff6633 {
+	border-color : #ff6633;
+}
+.md-typeset .colorscheme-ff6633>.admonition-title:before,.md-typeset .colorscheme-ff6633>summary:before {
+	background-color : #ff6633;
+}
+.md-typeset .colorscheme-ff6633>.admonition-title,.md-typeset .colorscheme-ff6633>summary {
+	background-color : #ff66331a;
+}
+
+.md-typeset .admonition.colorscheme-ff6666,.md-typeset details.colorscheme-ff6666 {
+	border-color : #ff6666;
+}
+.md-typeset .colorscheme-ff6666>.admonition-title:before,.md-typeset .colorscheme-ff6666>summary:before {
+	background-color : #ff6666;
+}
+.md-typeset .colorscheme-ff6666>.admonition-title,.md-typeset .colorscheme-ff6666>summary {
+	background-color : #ff66661a;
+}
+
+.md-typeset .admonition.colorscheme-ff6699,.md-typeset details.colorscheme-ff6699 {
+	border-color : #ff6699;
+}
+.md-typeset .colorscheme-ff6699>.admonition-title:before,.md-typeset .colorscheme-ff6699>summary:before {
+	background-color : #ff6699;
+}
+.md-typeset .colorscheme-ff6699>.admonition-title,.md-typeset .colorscheme-ff6699>summary {
+	background-color : #ff66991a;
+}
+
+.md-typeset .admonition.colorscheme-ff66cc,.md-typeset details.colorscheme-ff66cc {
+	border-color : #ff66cc;
+}
+.md-typeset .colorscheme-ff66cc>.admonition-title:before,.md-typeset .colorscheme-ff66cc>summary:before {
+	background-color : #ff66cc;
+}
+.md-typeset .colorscheme-ff66cc>.admonition-title,.md-typeset .colorscheme-ff66cc>summary {
+	background-color : #ff66cc1a;
+}
+
+.md-typeset .admonition.colorscheme-ff66ff,.md-typeset details.colorscheme-ff66ff {
+	border-color : #ff66ff;
+}
+.md-typeset .colorscheme-ff66ff>.admonition-title:before,.md-typeset .colorscheme-ff66ff>summary:before {
+	background-color : #ff66ff;
+}
+.md-typeset .colorscheme-ff66ff>.admonition-title,.md-typeset .colorscheme-ff66ff>summary {
+	background-color : #ff66ff1a;
+}
+
+.md-typeset .admonition.colorscheme-ff9900,.md-typeset details.colorscheme-ff9900 {
+	border-color : #ff9900;
+}
+.md-typeset .colorscheme-ff9900>.admonition-title:before,.md-typeset .colorscheme-ff9900>summary:before {
+	background-color : #ff9900;
+}
+.md-typeset .colorscheme-ff9900>.admonition-title,.md-typeset .colorscheme-ff9900>summary {
+	background-color : #ff99001a;
+}
+
+.md-typeset .admonition.colorscheme-ff9933,.md-typeset details.colorscheme-ff9933 {
+	border-color : #ff9933;
+}
+.md-typeset .colorscheme-ff9933>.admonition-title:before,.md-typeset .colorscheme-ff9933>summary:before {
+	background-color : #ff9933;
+}
+.md-typeset .colorscheme-ff9933>.admonition-title,.md-typeset .colorscheme-ff9933>summary {
+	background-color : #ff99331a;
+}
+
+.md-typeset .admonition.colorscheme-ff9966,.md-typeset details.colorscheme-ff9966 {
+	border-color : #ff9966;
+}
+.md-typeset .colorscheme-ff9966>.admonition-title:before,.md-typeset .colorscheme-ff9966>summary:before {
+	background-color : #ff9966;
+}
+.md-typeset .colorscheme-ff9966>.admonition-title,.md-typeset .colorscheme-ff9966>summary {
+	background-color : #ff99661a;
+}
+
+.md-typeset .admonition.colorscheme-ff9999,.md-typeset details.colorscheme-ff9999 {
+	border-color : #ff9999;
+}
+.md-typeset .colorscheme-ff9999>.admonition-title:before,.md-typeset .colorscheme-ff9999>summary:before {
+	background-color : #ff9999;
+}
+.md-typeset .colorscheme-ff9999>.admonition-title,.md-typeset .colorscheme-ff9999>summary {
+	background-color : #ff99991a;
+}
+
+.md-typeset .admonition.colorscheme-ff99cc,.md-typeset details.colorscheme-ff99cc {
+	border-color : #ff99cc;
+}
+.md-typeset .colorscheme-ff99cc>.admonition-title:before,.md-typeset .colorscheme-ff99cc>summary:before {
+	background-color : #ff99cc;
+}
+.md-typeset .colorscheme-ff99cc>.admonition-title,.md-typeset .colorscheme-ff99cc>summary {
+	background-color : #ff99cc1a;
+}
+
+.md-typeset .admonition.colorscheme-ff99ff,.md-typeset details.colorscheme-ff99ff {
+	border-color : #ff99ff;
+}
+.md-typeset .colorscheme-ff99ff>.admonition-title:before,.md-typeset .colorscheme-ff99ff>summary:before {
+	background-color : #ff99ff;
+}
+.md-typeset .colorscheme-ff99ff>.admonition-title,.md-typeset .colorscheme-ff99ff>summary {
+	background-color : #ff99ff1a;
+}
+
+.md-typeset .admonition.colorscheme-ffcc00,.md-typeset details.colorscheme-ffcc00 {
+	border-color : #ffcc00;
+}
+.md-typeset .colorscheme-ffcc00>.admonition-title:before,.md-typeset .colorscheme-ffcc00>summary:before {
+	background-color : #ffcc00;
+}
+.md-typeset .colorscheme-ffcc00>.admonition-title,.md-typeset .colorscheme-ffcc00>summary {
+	background-color : #ffcc001a;
+}
+
+.md-typeset .admonition.colorscheme-ffcc33,.md-typeset details.colorscheme-ffcc33 {
+	border-color : #ffcc33;
+}
+.md-typeset .colorscheme-ffcc33>.admonition-title:before,.md-typeset .colorscheme-ffcc33>summary:before {
+	background-color : #ffcc33;
+}
+.md-typeset .colorscheme-ffcc33>.admonition-title,.md-typeset .colorscheme-ffcc33>summary {
+	background-color : #ffcc331a;
+}
+
+.md-typeset .admonition.colorscheme-ffcc66,.md-typeset details.colorscheme-ffcc66 {
+	border-color : #ffcc66;
+}
+.md-typeset .colorscheme-ffcc66>.admonition-title:before,.md-typeset .colorscheme-ffcc66>summary:before {
+	background-color : #ffcc66;
+}
+.md-typeset .colorscheme-ffcc66>.admonition-title,.md-typeset .colorscheme-ffcc66>summary {
+	background-color : #ffcc661a;
+}
+
+.md-typeset .admonition.colorscheme-ffcc99,.md-typeset details.colorscheme-ffcc99 {
+	border-color : #ffcc99;
+}
+.md-typeset .colorscheme-ffcc99>.admonition-title:before,.md-typeset .colorscheme-ffcc99>summary:before {
+	background-color : #ffcc99;
+}
+.md-typeset .colorscheme-ffcc99>.admonition-title,.md-typeset .colorscheme-ffcc99>summary {
+	background-color : #ffcc991a;
+}
+
+.md-typeset .admonition.colorscheme-ffcccc,.md-typeset details.colorscheme-ffcccc {
+	border-color : #ffcccc;
+}
+.md-typeset .colorscheme-ffcccc>.admonition-title:before,.md-typeset .colorscheme-ffcccc>summary:before {
+	background-color : #ffcccc;
+}
+.md-typeset .colorscheme-ffcccc>.admonition-title,.md-typeset .colorscheme-ffcccc>summary {
+	background-color : #ffcccc1a;
+}
+
+.md-typeset .admonition.colorscheme-ffccff,.md-typeset details.colorscheme-ffccff {
+	border-color : #ffccff;
+}
+.md-typeset .colorscheme-ffccff>.admonition-title:before,.md-typeset .colorscheme-ffccff>summary:before {
+	background-color : #ffccff;
+}
+.md-typeset .colorscheme-ffccff>.admonition-title,.md-typeset .colorscheme-ffccff>summary {
+	background-color : #ffccff1a;
+}
+
+.md-typeset .admonition.colorscheme-ffff00,.md-typeset details.colorscheme-ffff00 {
+	border-color : #ffff00;
+}
+.md-typeset .colorscheme-ffff00>.admonition-title:before,.md-typeset .colorscheme-ffff00>summary:before {
+	background-color : #ffff00;
+}
+.md-typeset .colorscheme-ffff00>.admonition-title,.md-typeset .colorscheme-ffff00>summary {
+	background-color : #ffff001a;
+}
+
+.md-typeset .admonition.colorscheme-ffff33,.md-typeset details.colorscheme-ffff33 {
+	border-color : #ffff33;
+}
+.md-typeset .colorscheme-ffff33>.admonition-title:before,.md-typeset .colorscheme-ffff33>summary:before {
+	background-color : #ffff33;
+}
+.md-typeset .colorscheme-ffff33>.admonition-title,.md-typeset .colorscheme-ffff33>summary {
+	background-color : #ffff331a;
+}
+
+.md-typeset .admonition.colorscheme-ffff66,.md-typeset details.colorscheme-ffff66 {
+	border-color : #ffff66;
+}
+.md-typeset .colorscheme-ffff66>.admonition-title:before,.md-typeset .colorscheme-ffff66>summary:before {
+	background-color : #ffff66;
+}
+.md-typeset .colorscheme-ffff66>.admonition-title,.md-typeset .colorscheme-ffff66>summary {
+	background-color : #ffff661a;
+}
+
+.md-typeset .admonition.colorscheme-ffff99,.md-typeset details.colorscheme-ffff99 {
+	border-color : #ffff99;
+}
+.md-typeset .colorscheme-ffff99>.admonition-title:before,.md-typeset .colorscheme-ffff99>summary:before {
+	background-color : #ffff99;
+}
+.md-typeset .colorscheme-ffff99>.admonition-title,.md-typeset .colorscheme-ffff99>summary {
+	background-color : #ffff991a;
+}
+
+.md-typeset .admonition.colorscheme-ffffcc,.md-typeset details.colorscheme-ffffcc {
+	border-color : #ffffcc;
+}
+.md-typeset .colorscheme-ffffcc>.admonition-title:before,.md-typeset .colorscheme-ffffcc>summary:before {
+	background-color : #ffffcc;
+}
+.md-typeset .colorscheme-ffffcc>.admonition-title,.md-typeset .colorscheme-ffffcc>summary {
+	background-color : #ffffcc1a;
+}
+
+.md-typeset .admonition.colorscheme-ffffff,.md-typeset details.colorscheme-ffffff {
+	border-color : #ffffff;
+}
+.md-typeset .colorscheme-ffffff>.admonition-title:before,.md-typeset .colorscheme-ffffff>summary:before {
+	background-color : #ffffff;
+}
+.md-typeset .colorscheme-ffffff>.admonition-title,.md-typeset .colorscheme-ffffff>summary {
+	background-color : #ffffff1a;
+}

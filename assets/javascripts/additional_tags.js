@@ -1,49 +1,59 @@
-(function(...active) {
+(function() {
 	const attribute_or = function(o,a,v) { return (o.attributes[a] || {value : v}).value; };	
-	const get_upper_div = function(n,...I) {
-		while(I.includes(n.tagName))
-			n = n.parentNode;
-		return n;
+	const method__grid_init = function(t,s) {
+		t.style.gridTemplateColumns = attribute_or(s,'columns','');
+		t.style.gridTemplateRows = attribute_or(s,'rows','');
+		t.style.gridGap = attribute_or(s,'gap','');
+		t.style.justifyItems = attribute_or(s,'align-x','');
+		t.style.alignItems = attribute_or(s,'align-y','');
 	};
-	const methods = {
-__grid_init : function(t,s) {
-	t.style.gridTemplateColumns = attribute_or(s,'columns','');
-	t.style.gridTemplateRows = attribute_or(s,'rows','');
-	t.style.gridGap = attribute_or(s,'gap','');
-	t.style.justifyItems = attribute_or(s,'align-x','');
-	t.style.alignItems = attribute_or(s,'align-y','');
-},
 
+	const methods = {
 anchor : function() {
 	for(const anc of Array.from(document.querySelectorAll('rs-anchor'))) {
 		const ancref = attribute_or(anc,'ref',null);
 		const ancsel = attribute_or(anc,'global','');
 		const ancmul = attribute_or(anc,'multiple',null);
-		if(ancmul == 'grid') {
-			anc.style.display = 'grid';
-			methods.__grid_init(anc,anc);
-			if(ancref != null)
-				anc.appendChild(get_upper_div(document.getElementById(ancref),'P','SUMMARY','RS-TAG'));
+		if(ancref != null)
+			anc.appendChild(document.getElementById(ancref));
+		else
+		{
+			if(ancmul == 'grid') {
+				anc.style.display = 'grid';
+				method__grid_init(anc,anc);
+				Array.from(document.querySelectorAll(ancsel)).map((node,_) => anc.appendChild(node));
+			} else if(ancmul != null)
+				Array.from(document.querySelectorAll(ancsel)).map((node,_) => anc.appendChild(node));
 			else
-				Array.from(document.querySelectorAll(ancsel)).map((node,_) => anc.appendChild(get_upper_div(node,'P','SUMMARY','RS-TAG')));
-		} else if(ancmul != null){
-			if(ancref != null)
-				anc.appendChild(get_upper_div(document.getElementById(ancref),'P','SUMMARY','RS-TAG'));
-			else
-				Array.from(document.querySelectorAll(ancsel)).map((node,_) => anc.appendChild(get_upper_div(node,'P','SUMMARY','RS-TAG')));
-		} else {
-			if(ancref != null)
-				anc.appendChild(get_upper_div(document.getElementById(ancref),'P','SUMMARY','RS-TAG'));
-			else
-				anc.appendChild(get_upper_div(document.querySelector(ancsel),'P','SUMMARY','RS-TAG'));
+				anc.appendChild(document.querySelector(ancsel));
 		}
 	}
 },
 
 grid : function() {
-	const attribute_or = function(o,a,v) { return (o.attributes[a] || {value : v}).value; };
-	for(const grid of Array.from(document.querySelectorAll('rs-grid'))) {
-		methods.__grid_init(anc,anc);
+	for(const grid of Array.from(document.querySelectorAll('rs-grid')))
+		method__grid_init(grid,grid);
+},
+
+button : function() {
+	for(const btn of Array.from(document.querySelectorAll('rs-button'))) {
+		const types = attribute_or(btn,'type','').split(' ');
+		const content = btn.innerHTML;
+		btn.innerHTML = "";
+		const node1 = document.createElement('p');
+		node1.classList.add('admonition-title');
+		node1.innerHTML = content;
+		const node2 = document.createElement('div');
+		node2.classList.add('admonition');
+		for(const type of types)
+			node2.classList.add(type);
+		node2.classList.add('rs-button')
+		node2.appendChild(node1);
+		for(const k of btn.getAttributeNames())
+			if(k != 'type' && k != 'style')
+				node2.setAttribute(k,btn.attributes[k].value);
+		btn.style.display = 'grid';
+		btn.appendChild(node2);
 	}
 },
 
@@ -90,7 +100,9 @@ schedule_list : function() {
 	for(const sch_list of Array.from(document.querySelectorAll('rs-schedule'))) {
 		const semester = attribute_or(sch_list,'name','');
 		const startDate = `${attribute_or(sch_list,'startDate','')} 00:00`;
-		const week_count = week_by(startDate) + 1;
+		const week_delta = parseInt((new URLSearchParams(window.location.href.split('?')[1])).get('week') || '0');
+		console.log(week_delta);
+		const week_count = week_by(startDate) + 1 + week_delta;
 		let in_week_courses = [];
 		for(const course of Array.from(sch_list.querySelectorAll('rs-course'))) {
 			const name = attribute_or(course,"name","");
@@ -151,17 +163,25 @@ schedule_list : function() {
 		behavior : "smooth"
 	});
 },
-
-button : function() {
-	for(const btn of Array.from(document.querySelectorAll('rs-asbutton'))) {
-		const attr_names = btn.getAttributeNames();
-		const node = get_upper_div(btn,'P','SUMMARY','RS-TAG','RS-ASBUTTON');
-		for(const name of attr_names)
-			node.setAttribute(name,btn.attributes[name].value);
-		node.classList.add('rs-button');
-	}
-},
 	};
-	for(const name of active)
-		methods[name]();
-})('anchor','grid','button','schedule_list');
+
+	const node = document.querySelector('rs-settings');
+	if(node != null) {
+		const en = attribute_or(node,'enable',null);
+		const dis = attribute_or(node,'disable','');
+		console.log(en,dis);
+		if(en != null) {
+			const enlist = en.split(',').map((i,_) => i.trim());
+			for(const k of Object.keys(methods))
+				if(enlist.includes(k))
+					methods[k]();
+		} else {
+			const dislist = dis.split(',').map((i,_) => i.trim());
+			for(const k of Object.keys(methods))
+				if(!dislist.includes(k))
+					methods[k]();
+		}
+	} else
+		for(const fn of Object.values(methods))
+			fn();
+})();
