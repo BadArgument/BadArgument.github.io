@@ -138,13 +138,13 @@ schedule_list : function() {
 					false);
 				sch_list.appendChild(node);
 				latest_node = node;
-			} else if(new Date() >= date_after(startDate,week_count - 1,course.day - 1,parse_time(course_begin_time(course.classEnd)))) {
+			} else if(new Date() >= date_after(startDate,week_count - 1,course.day - 1,parse_time(course_begin_time(course.classBegin)))) {
 				const node = wrap_node('danger',large_center_div(`${course.name}<br/><code>${course.place}</code>`),
 					large_center_div(`<strong>${date_after(startDate,week_count - 1,course.day - 1,0).toLocaleDateString()} 周${["日","一","二","三","四","五","六"][course.day]} ${course.classBegin}~${course.classEnd}课</strong>`),
 					true);
 				sch_list.appendChild(node);
 				latest_node = node;
-			} else if(new Date() >= date_after(startDate,week_count - 1,course.day - 1,parse_time(course_begin_time(course.classEnd)) - 2400000)) {
+			} else if(new Date() >= date_after(startDate,week_count - 1,course.day - 1,parse_time(course_begin_time(course.classBegin)) - 2400000)) {
 				const node = wrap_node('warning',large_center_div(`${course.name}<br/><code>${course.place}</code>`),
 					large_center_div(`<strong>${date_after(startDate,week_count - 1,course.day - 1,0).toLocaleDateString()} 周${["日","一","二","三","四","五","六"][course.day]} ${course.classBegin}~${course.classEnd}课</strong>`),
 					true);
