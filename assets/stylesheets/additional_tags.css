@@ -41,3 +41,16 @@ input {
 input:focus {
 	box-shadow : 0 0 0 .2rem #9999991a;
 }
+
+.md-typeset .grid-display {
+	display : grid;
+	grid-gap : .5em;
+}
+
+.md-typeset .grid-display .admonition,.md-typeset .grid-display details {
+	margin : 0;
+}
+
+.md-typeset .grid-cell,.md-typeset .grid-cell p {
+	display : inherit;
+}
