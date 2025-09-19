@@ -27,21 +27,6 @@ rs-button .rs-button:active {
 	display : inherit;
 }
 
-input {
-	width : 100%;
-	padding : .4rem;
-	border : solid .075rem;
-	border-radius : .2rem;
-	border-color : #999999;
-	background-color : #9999991a;
-	font-weight : 600;
-	margin : .5rem 0;
-}
-
-input:focus {
-	box-shadow : 0 0 0 .2rem #9999991a;
-}
-
 .md-typeset .grid-display {
 	display : grid;
 	grid-gap : .5em;
