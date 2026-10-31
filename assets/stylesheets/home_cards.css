@@ -1,0 +1,61 @@
+/* 首页卡片式入口 */
+.md-typeset .home-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 240px), 1fr));
+  gap: 16px;
+  margin: 24px 0;
+}
+
+.md-typeset .home-card {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 18px 20px;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 10px;
+  background: var(--md-default-bg-color);
+  color: var(--md-default-fg-color);
+  text-decoration: none;
+  transition: border-color .15s ease, box-shadow .15s ease, transform .15s ease;
+}
+
+.md-typeset .home-card:hover {
+  border-color: var(--md-primary-fg-color);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, .08);
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+
+.md-typeset .home-card-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  margin-bottom: 4px;
+  border-radius: 10px;
+  background: var(--md-primary-fg-color--transparent, rgba(63, 81, 181, .1));
+  color: var(--md-primary-fg-color);
+}
+
+.md-typeset .home-card-icon svg {
+  width: 22px;
+  height: 22px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.md-typeset .home-card-title {
+  color: var(--md-primary-fg-color);
+  font-size: .9rem;
+  font-weight: 600;
+}
+
+.md-typeset .home-card-desc {
+  color: var(--md-default-fg-color--light);
+  font-size: .72rem;
+  line-height: 1.6;
+}
