@@ -1,4 +1,4 @@
-/* 首页卡片式入口 */
+/* 首页卡片式入口：配色取自 Material 主题变量，明暗自适应 */
 .md-typeset .home-cards {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(min(100%, 240px), 1fr));
@@ -13,15 +13,15 @@
   padding: 18px 20px;
   border: 1px solid var(--md-default-fg-color--lightest);
   border-radius: 10px;
-  background: var(--md-default-bg-color);
+  background: var(--md-code-bg-color);
   color: var(--md-default-fg-color);
   text-decoration: none;
   transition: border-color .15s ease, box-shadow .15s ease, transform .15s ease;
 }
 
 .md-typeset .home-card:hover {
-  border-color: var(--md-primary-fg-color);
-  box-shadow: 0 4px 16px rgba(0, 0, 0, .08);
+  border-color: var(--md-typeset-a-color, var(--md-primary-fg-color));
+  box-shadow: 0 6px 18px var(--md-default-fg-color--lightest);
   transform: translateY(-2px);
   text-decoration: none;
 }
@@ -34,8 +34,9 @@
   height: 40px;
   margin-bottom: 4px;
   border-radius: 10px;
-  background: var(--md-primary-fg-color--transparent, rgba(63, 81, 181, .1));
-  color: var(--md-primary-fg-color);
+  background: var(--md-default-fg-color--lightest);
+  background: color-mix(in srgb, var(--md-typeset-a-color, var(--md-primary-fg-color)) 14%, transparent);
+  color: var(--md-typeset-a-color, var(--md-primary-fg-color));
 }
 
 .md-typeset .home-card-icon svg {
@@ -49,7 +50,7 @@
 }
 
 .md-typeset .home-card-title {
-  color: var(--md-primary-fg-color);
+  color: var(--md-typeset-a-color, var(--md-primary-fg-color));
   font-size: .9rem;
   font-weight: 600;
 }
@@ -58,4 +59,18 @@
   color: var(--md-default-fg-color--light);
   font-size: .72rem;
   line-height: 1.6;
+}
+
+/* 明暗主题下的描边与投影对比度修正 */
+[data-md-color-scheme="default"] .md-typeset .home-card {
+  border-color: rgba(0, 0, 0, .1);
+}
+
+[data-md-color-scheme="slate"] .md-typeset .home-card {
+  border-color: rgba(255, 255, 255, .14);
+}
+
+[data-md-color-scheme="slate"] .md-typeset .home-card:hover {
+  border-color: var(--md-typeset-a-color, var(--md-primary-fg-color));
+  box-shadow: 0 6px 18px rgba(0, 0, 0, .45);
 }
