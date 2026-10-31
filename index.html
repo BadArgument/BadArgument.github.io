@@ -82,6 +82,8 @@
     
       <link rel="stylesheet" href="assets/stylesheets/additional_tags.css">
     
+      <link rel="stylesheet" href="assets/stylesheets/home_cards.css">
+    
     <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -361,7 +363,22 @@
 
 
 <h1 id="_1">欢迎页<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h1>
-<p><a href="llm_price/">LLM输出计算器</a></p>
+<div class="home-cards">
+  <a class="home-card" href="llm_price/index.html">
+    <span class="home-card-icon" aria-hidden="true">
+      <svg viewBox="0 0 24 24"><rect x="4" y="2" width="16" height="20" rx="2"/><line x1="8" y1="6" x2="16" y2="6"/><line x1="16" y1="14" x2="16" y2="18"/><path d="M8 10h.01M12 10h.01M16 10h.01M8 14h.01M12 14h.01M8 18h.01M12 18h.01"/></svg>
+    </span>
+    <span class="home-card-title">LLM 输出计算器</span>
+    <span class="home-card-desc">对比不同模型的等价输出价格</span>
+  </a>
+  <a class="home-card" href="deepseek-search/index.html">
+    <span class="home-card-icon" aria-hidden="true">
+      <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+    </span>
+    <span class="home-card-title">DeepSeek 网页搜索</span>
+    <span class="home-card-desc">调用 DeepSeek Search API 搜索网页，支持历史记录、Markdown 正文与 JSON 导出</span>
+  </a>
+</div>
 
 
 
